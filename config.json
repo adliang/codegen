@@ -1,0 +1,90 @@
+{
+  "Table": {
+    "Settings": {
+      "Versions": {
+        "mbrecords": [
+          {
+            "name": "ArmVersion",
+            "description": "Arm version",
+            "variable": "Settings.Major",
+            "type": "BIN",
+            "access": "RW"
+          },
+          {
+            "name": "DspVersion",
+            "description": "Dsp version",
+            "variable": "Settings.Major",
+            "type": "U16",
+            "access": "RO"
+          },
+          {
+            "name": "carVersion",
+            "description": "Dsp version",
+            "variable": "Settings.Major",
+            "type": "BIN",
+            "access": "RO"
+          },
+          {
+            "name": "busVersion",
+            "description": "Dsp version",
+            "variable": "Settings.Major",
+            "type": "U32",
+            "access": "RO"
+          },
+          {
+            "name": "noVersion",
+            "description": "Dsp version",
+            "variable": "Settings.Major",
+            "type": "U16",
+            "access": "RO"
+          }
+        ]
+      },
+      "Process": {
+        "ScaleVdc": {
+          "mbrecords": [
+            {
+              "name": "Gain",
+              "description": "Gain",
+              "variable": "Settings.ScaleVdc.Gain",
+              "type": "F32",
+              "access": "RW"
+            }
+          ]
+        }
+      }
+    },
+    "Measurements": {
+      "ADC": {
+        "mbrecords": [
+          {
+            "name": "Vdc ADC reading",
+            "variable": "process.adc.channel1.value",
+            "type": "U16",
+            "access": "RO"
+          }
+        ]
+      },
+      "ScaleVdc": {
+        "mbrecords": [
+          {
+            "name": "Scaled output value",
+            "variable": "process.scaleVdc.value",
+            "type": "F32",
+            "access": "RO"
+          }
+        ]
+      }
+    }
+  },
+  "ToolScreens": [
+    {
+      "name": "Live data",
+      "mbRange": [1000,1999]
+    },
+    {
+      "name": "Version Info",
+      "mb": [2001,2003,2005]
+    }
+  ]
+}
