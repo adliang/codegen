@@ -1,0 +1,15 @@
+// Some comment code. Some changes to this.
+
+void ModBus()
+{		
+[tpl]
+	$address
+	$name
+	$type
+[/tpl]
+
+[tpl]
+
+testing 
+[/tpl]
+}

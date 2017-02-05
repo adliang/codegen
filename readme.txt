@@ -4,3 +4,4 @@ Branch test
 more branch test
 even more branch test
 testing revert
+list - changing mbrecordgen.py to output list
