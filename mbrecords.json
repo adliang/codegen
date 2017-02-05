@@ -1,0 +1,51 @@
+{
+    "coil": {},
+    "discIn": {},
+    "holdReg": {
+        "4000": {
+            "access": "RW",
+            "address": "4000",
+            "description": "Gain",
+            "length": 2,
+            "name": "Gain",
+            "type": "F32",
+            "variable": "Settings.ScaleVdc.Gain"
+        }
+    },
+    "inReg": {
+        "3000": {
+            "access": "RO",
+            "address": "3000",
+            "description": "Arm version",
+            "length": 1,
+            "name": "ArmVersion",
+            "type": "U16",
+            "variable": "Settings.Major"
+        },
+        "3001": {
+            "access": "RO",
+            "address": "3001",
+            "description": "Dsp version",
+            "length": 1,
+            "name": "DspVersion",
+            "type": "U16",
+            "variable": "Settings.Major"
+        },
+        "3002": {
+            "access": "RO",
+            "address": "3002",
+            "length": 1,
+            "name": "Vdc ADC reading",
+            "type": "U16",
+            "variable": "process.adc.channel1.value"
+        },
+        "3003": {
+            "access": "RO",
+            "address": "3003",
+            "length": 2,
+            "name": "Scaled output value",
+            "type": "F32",
+            "variable": "process.scaleVdc.value"
+        }
+    }
+}

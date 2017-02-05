@@ -7,32 +7,11 @@
             "name": "ArmVersion",
             "description": "Arm version",
             "variable": "Settings.Major",
-            "type": "BIN",
-            "access": "RW"
-          },
-          {
-            "name": "DspVersion",
-            "description": "Dsp version",
-            "variable": "Settings.Major",
             "type": "U16",
             "access": "RO"
           },
           {
-            "name": "carVersion",
-            "description": "Dsp version",
-            "variable": "Settings.Major",
-            "type": "BIN",
-            "access": "RO"
-          },
-          {
-            "name": "busVersion",
-            "description": "Dsp version",
-            "variable": "Settings.Major",
-            "type": "U32",
-            "access": "RO"
-          },
-          {
-            "name": "noVersion",
+            "name": "DspVersion",
             "description": "Dsp version",
             "variable": "Settings.Major",
             "type": "U16",
@@ -87,4 +66,5 @@
       "mb": [2001,2003,2005]
     }
   ]
+
 }

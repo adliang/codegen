@@ -2,16 +2,7 @@
 
 void ModBus()
 {		
-% for a in ("one", "two", "three"):
-	${a}
+	$a
 	$name
 	$type
-% endfor
 }
-
-
-<ul>
-% for i, item in enumerate(('spam', 'ham', 'eggs')):
-<li class="${'odd' if i % 2 else 'even'}">${item}</li>
-% endfor
-</ul>

@@ -22,6 +22,7 @@ with open(JSONFILE) as configfile:
     data = json.load(configfile)
 record_list = data['Table']['Settings']['Versions']['mbrecords']
 pprint(record_list)
+
 # Finds all dict values under the key mbrecords. Does not work as intended; multiple 'branches' of mbrecords in config tree
 '''
 record_list = []
