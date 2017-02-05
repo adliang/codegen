@@ -2,7 +2,6 @@
 import json
 from pprint import pprint
 
-CONFIGFILE = 'config.json'
 
 # Finds keys in dict_in matching key_find, returns list of corresponding values
 def get_values(dict_in, key_find):
@@ -23,6 +22,7 @@ def get_values(dict_in, key_find):
             values_list.append(entry)
 
     return values_list
+
 
 # Assigns addresses to Modbus table. Returns list of of assigned Modbus addresses
 #TODO rewrite func to only generate mb_list without mb_table.
@@ -60,28 +60,38 @@ def assign_mbaddress(record_list):
         if mb_table[table_type]:
             prev_addr = max(mb_table[table_type], key=int)
             address = str(int(prev_addr) + mb_table[table_type][prev_addr]['length'])
-        #prev_addr = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + 1000)
+        #aprev_addr = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + 1000)
 
         record['address'] = address
         mb_table[table_type][address] = record
         mb_list.append(record)
+        #print(all((entry['address']) == address for entry in mb_list))
+        #aprev_addr = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + 50)
+        #aprev_len = next(int(entry['length']) for entry in mb_list if int(entry['address']) == aprev_addr)
+        #next_ad = aprev_addr + aprev_len
+        #pprint(aprev_addr)
+        #pprint(aprev_len)
+        #pprint(next_ad)
+
+    pprint(mb_list)
 
     sorted_list = sorted(mb_list, key=lambda entry: entry['address'])
     return sorted_list
 
 
-def generate_mblist():
+#TODO rewrite to only do one thing (generate file or return list)> Maybe write as class
+def generate_mblist(config_file, output_file):
 
 
     # Reads config file
-    with open(CONFIGFILE) as infile:
+    with open(config_file) as infile:
         config_data = json.load(infile)
 
     mbrecords = get_values(config_data, "mbrecords")
     parsed_records = assign_mbaddress(mbrecords)
 
     # Writes address assigned records to file
-    with open('mbrecords.json', 'w') as outfile:
+    with open(output_file, 'w') as outfile:
         json.dump(parsed_records, outfile, indent = 4)
 
     infile.close()
@@ -92,4 +102,4 @@ def generate_mblist():
 
 
 if __name__ == "__main__":
-    generate_mblist()
+    generate_mblist(config_file = 'config.json', output_file = 'mbrecords.json')
