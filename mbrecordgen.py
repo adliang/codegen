@@ -25,81 +25,73 @@ def get_values(dict_in, key_find):
 
 
 # Assigns addresses to Modbus table. Returns list of of assigned Modbus addresses
-#TODO rewrite func to only generate mb_list without mb_table.
-def assign_mbaddress(record_list):
-
-
-    mb_table = {"coil": {}, "discIn": {}, "inReg": {}, "holdReg": {}}
-    mb_list = []
-
-    for record in record_list:
-        # Get word length
-        # TODO define somewhere word length relating to type
-        if record['type'][-2:] == '32':
-            record['length'] = 2
-        else:
-            record['length'] = 1
-
-        # Get table location, set initial address location
-        if record['type'] == 'BIT':
-            if record['access'] == 'RW':
-                table_type = 'coil'
-                address = '0'
-            elif record['access'] == 'RO':
-                table_type = 'discIn'
-                address = '1000'
-        else:
-            if record['access'] == 'RO':
-                table_type = 'inReg'
-                address = '3000'
-            elif record['access'] == 'RW':
-                table_type = 'holdReg'
-                address = '4000'
-
-        # Get next available table address
-        if mb_table[table_type]:
-            prev_addr = max(mb_table[table_type], key=int)
-            address = str(int(prev_addr) + mb_table[table_type][prev_addr]['length'])
-        #aprev_addr = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + 1000)
-
-        record['address'] = address
-        mb_table[table_type][address] = record
-        mb_list.append(record)
-        #print(all((entry['address']) == address for entry in mb_list))
-        #aprev_addr = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + 50)
-        #aprev_len = next(int(entry['length']) for entry in mb_list if int(entry['address']) == aprev_addr)
-        #next_ad = aprev_addr + aprev_len
-        #pprint(aprev_addr)
-        #pprint(aprev_len)
-        #pprint(next_ad)
-
-    pprint(mb_list)
-
-    sorted_list = sorted(mb_list, key=lambda entry: entry['address'])
-    return sorted_list
-
-
-#TODO rewrite to only do one thing (generate file or return list)> Maybe write as class
-def generate_mblist(config_file, output_file):
+#TODO get rid of magic numbers
+def assign_mbaddress(config_file, config_key):
 
 
     # Reads config file
     with open(config_file) as infile:
         config_data = json.load(infile)
+        infile.close()
+    record_list = get_values(config_data, config_key)
 
-    mbrecords = get_values(config_data, "mbrecords")
-    parsed_records = assign_mbaddress(mbrecords)
+    word_len_2 = ['U32', 'F32']
+    boolean = 'BIT'
+    read_write = 'RW'
+    read_only = 'RO'
+    offset = 1000   # Offset between modbus register addresses
+    mb_list = []
+
+    for record in record_list:
+        # Get word length
+        if record['type'] in word_len_2:
+            record['length'] = 2
+        else:
+            record['length'] = 1
+        # Get table location, set initial address location
+        if record['type'] == boolean:
+            if record['access'] == read_write:
+                address = '0'
+            elif record['access'] == read_only:
+                address = '1000'
+        else:
+            if record['access'] == read_only:
+                address = '3000'
+            elif record['access'] == read_write:
+                address = '4000'
+
+        # Get next available table address
+        if any(entry['address'] == address for entry in mb_list):
+            max_address = max(int(entry['address']) for entry in mb_list if int(entry['address']) < int(address) + offset)
+            prev_length = max((entry['length']) for entry in mb_list if (entry['address']) == str(max_address))
+            address = str(max_address +  prev_length)
+
+        record['address'] = address
+        mb_list.append(record)
+
+    sorted_list = sorted(mb_list, key=lambda entry: entry['address'])
+    return sorted_list
+
+
+# Takes input config_file, returns json list containing entries with assigned addresses
+def generate_mblist(config_file, output_file, config_key):
+
+
+    # Reads config file
+    with open(config_file) as infile:
+        config_data = json.load(infile)
+        infile.close()
+
+    mbrecords = get_values(config_data, config_key)
+    parsed_records = assign_mbaddress(config_file, config_key)
+    pprint(parsed_records)
 
     # Writes address assigned records to file
     with open(output_file, 'w') as outfile:
         json.dump(parsed_records, outfile, indent = 4)
-
-    infile.close()
-    outfile.close()
+        outfile.close()
 
     print('Modbus address list file created')
-    return parsed_records
-
 
 if __name__ == "__main__":
-    generate_mblist(config_file = 'config.json', output_file = 'mbrecords.json')
+    generate_mblist(config_file = 'config.json', output_file = 'mbrecords.json', config_key = 'mbrecords')
