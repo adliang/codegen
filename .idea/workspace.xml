@@ -4,13 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8588f4dd-6c51-459b-8718-130c6ecafc02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codegen.py" afterPath="$PROJECT_DIR$/codegen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mbrecordgen.py" afterPath="$PROJECT_DIR$/mbrecordgen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modbusdisplay.py" afterPath="$PROJECT_DIR$/modbusdisplay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templater.py" afterPath="$PROJECT_DIR$/templater.py" />
-    </list>
+    <list default="true" id="8588f4dd-6c51-459b-8718-130c6ecafc02" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +69,8 @@
       <file leaf-file-name="ModbusGUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ModbusGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -778,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ModbusGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
       </provider>
