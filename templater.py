@@ -1,7 +1,7 @@
 '''Return 0 if no valid tempalte tags found in tempalte file. Else return 1'''
 from pprint import pprint
 from string import Template
-from mbrecordgen import generate_mblist
+from mbrecordgen import generate_mbmap
 
 
 def template_loop(templatefile, outputfile, tpl_data):
@@ -43,4 +43,4 @@ def template_loop(templatefile, outputfile, tpl_data):
 
 
 if __name__ == "__main__":
-    template_loop(templatefile = 'modbusDB.ctpl', outputfile = 'modbusDB.c', tpl_data = generate_mblist('config.json', 'mbrecords'))
+    template_loop(templatefile = 'modbusDB.ctpl', outputfile = 'modbusDB.c', tpl_data = generate_mbmap('config.json', 'mbrecords'))

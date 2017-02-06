@@ -1,0 +1,235 @@
+2017-02-06 16:05:38,717	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 16:05:38,719	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 16:05:38,720	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 16:05:38,740	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 16:05:38,740	ERROR	pyModSlave._load_params	MainThread	Parameters file does not exist
+2017-02-06 16:07:30,782	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 16:34:47,427	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 16:34:47,428	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 16:34:47,430	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 16:34:47,441	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 16:34:49,671	INFO	pyModSlave._start_stop	MainThread	Starting RTU server
+2017-02-06 16:34:49,671	INFO	ModSlaveSim.ModServerFactory	MainThread	Build RTU Server - Port: 0, Baudrate: 9600, Bytesize: 8, Parity: N, Stopbits : 1
+2017-02-06 16:34:49,674	ERROR	ModSlaveSim.ModServerFactory	MainThread	Error while building RTU Server : could not open port 'COM1': WindowsError(2, 'The system cannot find the file specified.')
+2017-02-06 16:34:49,674	ERROR	pyModSlave._start_stop	MainThread	Fail to start server
+2017-02-06 16:34:52,927	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:34:52,927	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:34:52,937	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:34:53,121	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 62550) is connected with socket 1536...
+2017-02-06 16:35:38,770	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1536: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:35:48,471	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 62569) is connected with socket 1536...
+2017-02-06 16:35:50,947	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1536: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:35:58,392	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 62573) is connected with socket 1496...
+2017-02-06 16:36:07,990	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1496: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:36:23,299	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 62582) is connected with socket 1496...
+2017-02-06 16:36:54,140	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1496: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:36:55,688	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 62588) is connected with socket 1500...
+2017-02-06 16:37:48,598	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1500: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:37:50,829	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:37:50,829	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:37:51,599	INFO	modbus._run_server	Thread-1	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:37:58,177	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:37:58,177	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:37:58,183	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:38:14,513	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:38:14,513	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:38:15,187	INFO	modbus._run_server	Thread-3	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:38:25,127	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:38:25,127	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:38:25,132	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:42:18,249	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 16:45:00,483	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 16:45:00,483	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 16:45:00,486	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 16:45:00,497	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 16:45:08,901	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:45:08,903	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:45:08,904	ERROR	modbus._run_server	Thread-1	server error: [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2017-02-06 16:45:08,913	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:45:18,101	INFO	modbus_tcp._do_run	Thread-5	('127.0.0.1', 62640) is connected with socket 1564...
+2017-02-06 16:45:18,101	WARNING	modbus_tcp._do_run	Thread-5	Error while processing data on socket 1564: wrapped C/C++ object of type ModSlaveBusMonitorWindow has been deleted
+2017-02-06 16:45:19,101	WARNING	modbus_tcp._do_run	Thread-5	Error while processing data on socket 1508: [Errno 9] Bad file descriptor
+2017-02-06 16:45:19,101	ERROR	modbus._run_server	Thread-5	server error: (10022, 'An invalid argument was supplied')
+2017-02-06 16:45:35,617	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:45:35,617	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:45:41,980	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:45:41,980	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:45:41,987	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:45:46,394	INFO	modbus_tcp._do_run	Thread-3	('127.0.0.1', 62656) is connected with socket 1288...
+2017-02-06 16:46:10,000	WARNING	modbus_tcp._do_run	Thread-3	Error while processing data on socket 1288: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:46:11,023	INFO	modbus_tcp._do_run	Thread-3	('127.0.0.1', 62664) is connected with socket 1404...
+2017-02-06 16:46:17,424	WARNING	modbus_tcp._do_run	Thread-3	Error while processing data on socket 1404: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 16:46:24,937	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:46:24,937	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:46:25,430	INFO	modbus._run_server	Thread-3	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:52:00,700	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:52:00,700	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:52:00,707	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:52:07,073	INFO	modbus_tcp._do_run	Thread-5	('127.0.0.1', 62690) is connected with socket 1444...
+2017-02-06 16:52:12,469	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:52:12,470	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:52:12,470	INFO	modbus._run_server	Thread-5	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:52:47,000	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:52:47,000	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:52:47,006	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:52:49,134	INFO	modbus_tcp._do_run	Thread-7	('127.0.0.1', 62696) is connected with socket 1292...
+2017-02-06 16:52:53,746	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:52:53,746	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:52:53,802	INFO	modbus._run_server	Thread-7	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:53:26,950	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:53:26,950	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:53:26,956	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:53:27,346	INFO	modbus_tcp._do_run	Thread-9	('127.0.0.1', 62710) is connected with socket 1476...
+2017-02-06 16:53:30,614	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:53:30,614	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:53:30,697	INFO	modbus._run_server	Thread-9	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 16:54:03,490	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:54:10,441	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:54:12,950	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 16:54:12,950	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 16:54:12,956	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 16:54:13,012	INFO	modbus_tcp._do_run	Thread-11	('127.0.0.1', 62723) is connected with socket 1516...
+2017-02-06 16:54:18,516	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 16:54:18,516	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 16:54:18,608	INFO	modbus._run_server	Thread-11	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:37:44,605	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:37:44,605	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:37:44,614	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:37:44,859	INFO	modbus_tcp._do_run	Thread-13	('127.0.0.1', 63487) is connected with socket 1496...
+2017-02-06 20:37:48,180	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:37:48,180	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:37:48,217	INFO	modbus._run_server	Thread-13	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:37:48,927	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 20:44:10,502	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 20:44:10,503	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 20:44:10,505	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 20:44:10,516	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 20:44:11,951	INFO	pyModSlave._start_stop	MainThread	Starting RTU server
+2017-02-06 20:44:11,951	INFO	ModSlaveSim.ModServerFactory	MainThread	Build RTU Server - Port: 0, Baudrate: 9600, Bytesize: 8, Parity: N, Stopbits : 1
+2017-02-06 20:44:11,951	ERROR	ModSlaveSim.ModServerFactory	MainThread	Error while building RTU Server : could not open port 'COM1': WindowsError(2, 'The system cannot find the file specified.')
+2017-02-06 20:44:11,951	ERROR	pyModSlave._start_stop	MainThread	Fail to start server
+2017-02-06 20:44:14,494	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:44:14,494	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:44:14,503	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:44:14,957	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 63580) is connected with socket 1492...
+2017-02-06 20:44:27,348	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:44:27,349	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:44:27,375	INFO	modbus._run_server	Thread-1	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:44:41,986	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:44:41,986	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:44:41,994	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:44:52,526	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:44:52,526	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:44:52,994	INFO	modbus._run_server	Thread-3	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:44:53,645	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:44:53,645	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:44:53,654	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:44:57,576	INFO	modbus_tcp._do_run	Thread-5	('127.0.0.1', 63583) is connected with socket 1592...
+2017-02-06 20:45:04,421	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:45:04,421	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:45:04,496	INFO	modbus._run_server	Thread-5	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:45:05,930	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 20:48:05,395	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 20:48:05,397	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 20:48:05,398	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 20:48:05,410	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 20:50:04,651	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 20:50:06,059	INFO	pyModSlave._start_stop	MainThread	Starting RTU server
+2017-02-06 20:50:06,059	INFO	ModSlaveSim.ModServerFactory	MainThread	Build RTU Server - Port: 0, Baudrate: 9600, Bytesize: 8, Parity: N, Stopbits : 1
+2017-02-06 20:50:06,059	ERROR	ModSlaveSim.ModServerFactory	MainThread	Error while building RTU Server : could not open port 'COM1': WindowsError(2, 'The system cannot find the file specified.')
+2017-02-06 20:50:06,059	ERROR	pyModSlave._start_stop	MainThread	Fail to start server
+2017-02-06 20:50:09,285	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:50:09,285	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:50:09,292	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:50:09,355	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 63793) is connected with socket 1456...
+2017-02-06 20:50:22,279	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:50:22,279	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:50:22,407	INFO	modbus._run_server	Thread-1	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:50:22,961	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:50:22,961	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:50:22,970	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:50:42,053	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:50:42,053	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:50:42,973	INFO	modbus._run_server	Thread-3	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:50:42,983	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:50:42,983	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:50:42,990	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:50:45,105	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:50:45,105	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:50:45,986	INFO	modbus._run_server	Thread-5	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:51:03,640	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:51:03,640	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:51:03,648	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:51:03,973	INFO	modbus_tcp._do_run	Thread-7	('127.0.0.1', 63811) is connected with socket 1628...
+2017-02-06 20:51:05,947	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 20:51:05,947	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 20:51:05,990	INFO	modbus._run_server	Thread-7	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 20:58:56,536	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 20:58:56,536	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 20:58:56,543	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 20:58:56,680	INFO	modbus_tcp._do_run	Thread-9	('127.0.0.1', 64515) is connected with socket 1648...
+2017-02-06 20:58:56,700	INFO	modbus_tcp._do_run	Thread-9	('127.0.0.1', 64517) is connected with socket 1540...
+2017-02-06 20:58:56,769	INFO	modbus_tcp._do_run	Thread-9	('127.0.0.1', 64516) is connected with socket 1656...
+2017-02-06 20:58:56,900	INFO	modbus_tcp._do_run	Thread-9	('127.0.0.1', 64518) is connected with socket 1660...
+2017-02-06 20:59:13,267	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 20:59:13,338	ERROR	modbus._run_server	Thread-9	server error: [Errno 9] Bad file descriptor
+2017-02-06 21:36:22,082	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 21:36:22,084	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 21:36:22,085	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 21:36:22,098	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 21:36:23,528	INFO	pyModSlave._start_stop	MainThread	Starting RTU server
+2017-02-06 21:36:23,528	INFO	ModSlaveSim.ModServerFactory	MainThread	Build RTU Server - Port: 0, Baudrate: 9600, Bytesize: 8, Parity: N, Stopbits : 1
+2017-02-06 21:36:23,528	ERROR	ModSlaveSim.ModServerFactory	MainThread	Error while building RTU Server : could not open port 'COM1': WindowsError(2, 'The system cannot find the file specified.')
+2017-02-06 21:36:23,528	ERROR	pyModSlave._start_stop	MainThread	Fail to start server
+2017-02-06 21:36:26,094	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 21:36:26,094	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 21:36:26,101	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 21:36:26,453	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 65284) is connected with socket 1584...
+2017-02-06 21:36:34,707	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1584: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 21:36:35,769	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 65288) is connected with socket 1400...
+2017-02-06 21:36:37,332	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 21:36:37,332	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 21:36:37,779	INFO	modbus._run_server	Thread-1	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 21:36:38,398	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 21:36:38,398	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 21:36:38,404	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 21:36:52,151	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 21:36:52,151	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 21:36:52,404	INFO	modbus._run_server	Thread-3	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 21:36:55,936	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 21:36:55,936	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 21:36:55,944	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 21:37:00,687	INFO	modbus_tcp._do_run	Thread-5	('127.0.0.1', 65292) is connected with socket 1480...
+2017-02-06 21:39:53,648	WARNING	modbus_tcp._do_run	Thread-5	Error while processing data on socket 1480: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:11:48,618	INFO	pyModSlave._start_stop	MainThread	Stop server
+2017-02-06 22:11:48,618	INFO	ModSlaveSim.stop	MainThread	Slave sim stopped
+2017-02-06 22:11:48,621	INFO	modbus._run_server	Thread-5	<class 'modbus_tk.modbus_tcp.TcpServer'> has stopped
+2017-02-06 22:11:49,614	INFO	pyModSlave._save_params	MainThread	Save params
+2017-02-06 22:51:31,263	INFO	ModSlaveSettingsRTU._set_values	MainThread	Set param values to UI
+2017-02-06 22:51:31,265	INFO	ModSlaveSettingsTCP._set_values	MainThread	Set param values to UI
+2017-02-06 22:51:31,266	INFO	ModSlaveSettings._set_values	MainThread	Set param values to UI
+2017-02-06 22:51:31,288	INFO	pyModSlave._load_params	MainThread	Load params
+2017-02-06 22:51:33,993	INFO	pyModSlave._start_stop	MainThread	Starting RTU server
+2017-02-06 22:51:33,993	INFO	ModSlaveSim.ModServerFactory	MainThread	Build RTU Server - Port: 0, Baudrate: 9600, Bytesize: 8, Parity: N, Stopbits : 1
+2017-02-06 22:51:33,993	ERROR	ModSlaveSim.ModServerFactory	MainThread	Error while building RTU Server : could not open port 'COM1': WindowsError(2, 'The system cannot find the file specified.')
+2017-02-06 22:51:33,993	ERROR	pyModSlave._start_stop	MainThread	Fail to start server
+2017-02-06 22:51:36,174	INFO	pyModSlave._start_stop	MainThread	Starting TCP server
+2017-02-06 22:51:36,174	INFO	ModSlaveSim.ModServerFactory	MainThread	Build TCP Server - 127.000.000.001:502
+2017-02-06 22:51:36,183	INFO	ModSlaveSim.start	MainThread	Slave sim started
+2017-02-06 22:51:36,319	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49534) is connected with socket 1472...
+2017-02-06 22:51:36,323	INFO	modbus_tcp._do_run	Thread-1	1472 is disconnected
+2017-02-06 22:51:49,000	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49538) is connected with socket 1560...
+2017-02-06 22:51:49,013	INFO	modbus_tcp._do_run	Thread-1	1560 is disconnected
+2017-02-06 22:51:59,496	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49542) is connected with socket 1280...
+2017-02-06 22:51:59,499	INFO	modbus_tcp._do_run	Thread-1	1280 is disconnected
+2017-02-06 22:52:06,414	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49546) is connected with socket 1572...
+2017-02-06 22:52:15,543	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49550) is connected with socket 1280...
+2017-02-06 22:52:43,516	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1280: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:55:21,798	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49557) is connected with socket 1280...
+2017-02-06 22:55:22,802	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1280: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:55:24,122	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1572: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:55:27,279	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49561) is connected with socket 1572...
+2017-02-06 22:55:38,608	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1572: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:55:49,032	INFO	modbus_tcp._do_run	Thread-1	('127.0.0.1', 49565) is connected with socket 1564...
+2017-02-06 22:55:52,012	WARNING	modbus_tcp._do_run	Thread-1	Error while processing data on socket 1564: [Errno 10054] An existing connection was forcibly closed by the remote host
+2017-02-06 22:59:07,348	INFO	pyModSlave._save_params	MainThread	Save params
