@@ -1,15 +1,15 @@
-// Some comment code. Some changes to this.
+// Some comment code. 
 
 void ModBus()
 {		
 [tpl]
-	$address
-	$name
-	$type
+	$address;
+	$variable;
+	$type;
 [/tpl]
 
 [tpl]
 
-testing 
+testing multiple tags
 [/tpl]
 }
