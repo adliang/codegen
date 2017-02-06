@@ -80,7 +80,6 @@ def generate_mbmap(config_file, config_key, output_file = None):
     with open(config_file) as infile:
         config_data = json.load(infile)
         infile.close()
-    global parsed_records
     mbrecords = get_values(config_data, config_key)
     parsed_records = assign_mbdata(mbrecords)
 

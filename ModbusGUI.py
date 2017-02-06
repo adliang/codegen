@@ -7,7 +7,7 @@ import random
 import _thread
 
 serialdata = []
-data = True
+da7uta = True
 x = '5'
 class SensorThread(threading.Thread):
     def run(self):

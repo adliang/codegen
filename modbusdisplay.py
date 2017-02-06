@@ -19,6 +19,7 @@ def polling_thread():
     global regs
     try:
         c = ModbusClient(host=SERVER_HOST, port=502)
+        c.debug(True)
     except ValueError:
         print("Error with host or port params")    # polling loop
     while True:
