@@ -16,20 +16,20 @@ from pyModbusTCP.client import ModbusClient
 import json
 from pprint import pprint
 from PyQt5.QtCore import QThread, pyqtSignal
-from PyQt5.QtWidgets import QTreeWidgetItem, QTreeWidget
+from PyQt5.QtWidgets import QTreeWidgetItem, QTreeWidget, QTreeView
 
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 502
 
 # set global
 regs = []
-poll_rate = 0.5
+poll_rate = 1
 global resized
 
 
 class SensorThread(QThread):
     resized = pyqtSignal(list)
-    bitsread = 98
+    bitsread = 30
     def __init__(self):
         QThread.__init__(self)
 
@@ -43,7 +43,6 @@ class SensorThread(QThread):
             if not c.is_open():
                 c.open()
             reg_list = c.read_input_registers(0, SensorThread.bitsread)
-            print(reg_list)
             if reg_list:
                 regs = reg_list
             else:
@@ -56,12 +55,7 @@ class ExampleApp(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
     last_child = 0
     colCount = 2
     valColumn = 0
-    d = {'key1': 'value1',
-         'key2': 'value2',
-         'key3': [1, 2, 3, {1: 3, 7: 9}],
-         'key4': object(),
-         'key5': {'another key1': 'another value1',
-                  'another key2': 'another value2'}}
+
 
     def __init__(self, parent=None):
         super(ExampleApp, self).__init__(parent)
@@ -131,9 +125,14 @@ class ExampleApp(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
 
     def fill_item(self, item, value):
         item.setExpanded(True)
+        self.treeWidget.setExpandsOnDoubleClick(True)
+
         if type(value) is dict:
             for key, val in sorted(value.items()):
+                if key == 'mbrecord':
+                    return
                 child = QTreeWidgetItem()
+
                 ExampleApp.last_child = child
                 child.setText(0, str(key))
                 item.addChild(child)
@@ -160,21 +159,33 @@ class ExampleApp(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
                 child = ExampleApp.last_child
             child.setText(0, child.text(0)+ " : " + str(value))
             item.addChild(child)
+
+
     def updateui(self):
         self.get_thread = SensorThread()
         self.get_thread.start()
         self.get_thread.resized.connect(self.handle_trigger)
-        self.treeWidget.clicked.connect(self.do_something)
+        self.treeWidget.doubleClicked.connect(self.do_something)
+        self.treeWidget.itemSelectionChanged.connect(self.loadAllMessages)
 
     def handle_trigger(self, number):
         for i in list(range(0, len(mbmap))):
             self.tableWidget.setItem(i%33, (i//33)*3, QTableWidgetItem(str(number[i])))
-    def do_something(self):
-        print("potato")
 
 
+    def do_something(self, index):
+        pprint(self.treeWidget.treePosition())
 
 
+        QTreeWidgetItem.text(0)
+
+    def loadAllMessages(self):
+        getSelected = self.treeWidget.selectedItems()
+
+        if getSelected:
+            baseNode = getSelected[0]
+            getChildNode = baseNode.text(0)
+            print(getChildNode)
 def main():
     global mbmap
     global something

@@ -1,0 +1,4315 @@
+{
+    "Measurements": {
+        "faultlogic": {
+            "activeFaults": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5000,
+                    "length": 2,
+                    "name": "activeFaults",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.activeFaults"
+                }
+            },
+            "enableOutput": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5002,
+                    "length": 2,
+                    "name": "enableOutput",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.enableOutput"
+                }
+            },
+            "faultInputs": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5004,
+                    "length": 2,
+                    "name": "faultInputs",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.faultInputs"
+                }
+            },
+            "faultPresent": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5006,
+                    "length": 2,
+                    "name": "faultPresent",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.faultPresent"
+                }
+            },
+            "pendingCommands": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5008,
+                    "length": 2,
+                    "name": "pendingCommands",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.pendingCommands"
+                }
+            },
+            "tripFault": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5010,
+                    "length": 2,
+                    "name": "tripFault",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.tripFault"
+                }
+            }
+        },
+        "process": {
+            "AlphaBeta": {
+                "A": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5012,
+                        "length": 2,
+                        "name": "A",
+                        "type": "int",
+                        "varname": "Measurements.process.AlphaBeta.A"
+                    }
+                },
+                "B": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5014,
+                        "length": 2,
+                        "name": "B",
+                        "type": "int",
+                        "varname": "Measurements.process.AlphaBeta.B"
+                    }
+                }
+            },
+            "Buttons": {
+                "changedMask": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5016,
+                        "length": 2,
+                        "name": "changedMask",
+                        "type": "int",
+                        "varname": "Measurements.process.Buttons.changedMask"
+                    }
+                },
+                "pressedMask": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5018,
+                        "length": 2,
+                        "name": "pressedMask",
+                        "type": "int",
+                        "varname": "Measurements.process.Buttons.pressedMask"
+                    }
+                }
+            },
+            "Firing": {
+                "IError": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5020,
+                        "length": 2,
+                        "name": "IError",
+                        "type": "int",
+                        "varname": "Measurements.process.Firing.IError"
+                    }
+                },
+                "Isp": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5022,
+                        "length": 2,
+                        "name": "Isp",
+                        "type": "int",
+                        "varname": "Measurements.process.Firing.Isp"
+                    }
+                },
+                "firingAngleDeg": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5024,
+                        "length": 2,
+                        "name": "firingAngleDeg",
+                        "type": "int",
+                        "varname": "Measurements.process.Firing.firingAngleDeg"
+                    }
+                }
+            },
+            "IdcDebounce1": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5026,
+                    "length": 2,
+                    "name": "IdcDebounce1",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcDebounce1"
+                }
+            },
+            "IdcDebounce2": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5028,
+                    "length": 2,
+                    "name": "IdcDebounce2",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcDebounce2"
+                }
+            },
+            "IdcFiltered1": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5030,
+                    "length": 2,
+                    "name": "IdcFiltered1",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcFiltered1"
+                }
+            },
+            "IdcFiltered2": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5032,
+                    "length": 2,
+                    "name": "IdcFiltered2",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcFiltered2"
+                }
+            },
+            "IdcMeasured": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5034,
+                    "length": 2,
+                    "name": "IdcMeasured",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcMeasured"
+                }
+            },
+            "IdcScaled1": {
+                "overRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5036,
+                        "length": 2,
+                        "name": "overRange",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled1.overRange"
+                    }
+                },
+                "underRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5038,
+                        "length": 2,
+                        "name": "underRange",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled1.underRange"
+                    }
+                },
+                "value": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5040,
+                        "length": 2,
+                        "name": "value",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled1.value"
+                    }
+                }
+            },
+            "IdcScaled2": {
+                "overRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5042,
+                        "length": 2,
+                        "name": "overRange",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled2.overRange"
+                    }
+                },
+                "underRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5044,
+                        "length": 2,
+                        "name": "underRange",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled2.underRange"
+                    }
+                },
+                "value": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5046,
+                        "length": 2,
+                        "name": "value",
+                        "type": "int",
+                        "varname": "Measurements.process.IdcScaled2.value"
+                    }
+                }
+            },
+            "IdcSum": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5048,
+                    "length": 2,
+                    "name": "IdcSum",
+                    "type": "int",
+                    "varname": "Measurements.process.IdcSum"
+                }
+            },
+            "Pdc": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5050,
+                    "length": 2,
+                    "name": "Pdc",
+                    "type": "int",
+                    "varname": "Measurements.process.Pdc"
+                }
+            },
+            "PdcDebounce": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5052,
+                    "length": 2,
+                    "name": "PdcDebounce",
+                    "type": "int",
+                    "varname": "Measurements.process.PdcDebounce"
+                }
+            },
+            "PdcMeasured": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5054,
+                    "length": 2,
+                    "name": "PdcMeasured",
+                    "type": "int",
+                    "varname": "Measurements.process.PdcMeasured"
+                }
+            },
+            "PllOut": {
+                "Fault": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5056,
+                        "length": 2,
+                        "name": "Fault",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.Fault"
+                    }
+                },
+                "driveFreq": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5058,
+                        "length": 2,
+                        "name": "driveFreq",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.driveFreq"
+                    }
+                },
+                "parkOut": {
+                    "phaseError": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5060,
+                            "length": 2,
+                            "name": "phaseError",
+                            "type": "int",
+                            "varname": "Measurements.process.PllOut.parkOut.phaseError"
+                        }
+                    },
+                    "positiveSequence": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5062,
+                            "length": 2,
+                            "name": "positiveSequence",
+                            "type": "int",
+                            "varname": "Measurements.process.PllOut.parkOut.positiveSequence"
+                        }
+                    }
+                },
+                "periodAvg": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5064,
+                        "length": 2,
+                        "name": "periodAvg",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.periodAvg"
+                    }
+                },
+                "sinCos": {
+                    "A": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5066,
+                            "length": 2,
+                            "name": "A",
+                            "type": "int",
+                            "varname": "Measurements.process.PllOut.sinCos.A"
+                        }
+                    },
+                    "B": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5068,
+                            "length": 2,
+                            "name": "B",
+                            "type": "int",
+                            "varname": "Measurements.process.PllOut.sinCos.B"
+                        }
+                    }
+                },
+                "sync": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5070,
+                        "length": 2,
+                        "name": "sync",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.sync"
+                    }
+                },
+                "wDrive": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5072,
+                        "length": 2,
+                        "name": "wDrive",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.wDrive"
+                    }
+                },
+                "wLookup": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5074,
+                        "length": 2,
+                        "name": "wLookup",
+                        "type": "int",
+                        "varname": "Measurements.process.PllOut.wLookup"
+                    }
+                }
+            },
+            "SigGenOut": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5076,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.SigGenOut.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5078,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.SigGenOut.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5080,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.SigGenOut.T"
+                    }
+                }
+            },
+            "VacDebounceOver": {
+                "outR": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5082,
+                        "length": 2,
+                        "name": "outR",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceOver.outR"
+                    }
+                },
+                "outS": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5084,
+                        "length": 2,
+                        "name": "outS",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceOver.outS"
+                    }
+                },
+                "outT": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5086,
+                        "length": 2,
+                        "name": "outT",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceOver.outT"
+                    }
+                }
+            },
+            "VacDebounceUnder": {
+                "outR": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5088,
+                        "length": 2,
+                        "name": "outR",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceUnder.outR"
+                    }
+                },
+                "outS": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5090,
+                        "length": 2,
+                        "name": "outS",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceUnder.outS"
+                    }
+                },
+                "outT": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5092,
+                        "length": 2,
+                        "name": "outT",
+                        "type": "int",
+                        "varname": "Measurements.process.VacDebounceUnder.outT"
+                    }
+                }
+            },
+            "VacFiltered1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5094,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VacFiltered1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5096,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VacFiltered1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5098,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VacFiltered1.T"
+                    }
+                }
+            },
+            "VacInput1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5100,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5102,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5104,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput1.T"
+                    }
+                }
+            },
+            "VacInput2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5106,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5108,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5110,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VacInput2.T"
+                    }
+                }
+            },
+            "VacMeasured1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5112,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5114,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5116,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured1.T"
+                    }
+                }
+            },
+            "VacMeasured2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5118,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5120,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5122,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VacMeasured2.T"
+                    }
+                }
+            },
+            "VacScaled1": {
+                "outputR": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5124,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputR.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5126,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputR.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5128,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputR.value"
+                        }
+                    }
+                },
+                "outputS": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5130,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputS.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5132,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputS.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5134,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputS.value"
+                        }
+                    }
+                },
+                "outputT": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5136,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputT.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5138,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputT.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5140,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled1.outputT.value"
+                        }
+                    }
+                }
+            },
+            "VacScaled2": {
+                "outputR": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5142,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputR.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5144,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputR.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5146,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputR.value"
+                        }
+                    }
+                },
+                "outputS": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5148,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputS.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5150,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputS.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5152,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputS.value"
+                        }
+                    }
+                },
+                "outputT": {
+                    "overRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5154,
+                            "length": 2,
+                            "name": "overRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputT.overRange"
+                        }
+                    },
+                    "underRange": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5156,
+                            "length": 2,
+                            "name": "underRange",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputT.underRange"
+                        }
+                    },
+                    "value": {
+                        "mbrecord": {
+                            "access": "RO",
+                            "address": 5158,
+                            "length": 2,
+                            "name": "value",
+                            "type": "int",
+                            "varname": "Measurements.process.VacScaled2.outputT.value"
+                        }
+                    }
+                }
+            },
+            "VdcDebounceOver": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5160,
+                    "length": 2,
+                    "name": "VdcDebounceOver",
+                    "type": "int",
+                    "varname": "Measurements.process.VdcDebounceOver"
+                }
+            },
+            "VdcDebounceUnder": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5162,
+                    "length": 2,
+                    "name": "VdcDebounceUnder",
+                    "type": "int",
+                    "varname": "Measurements.process.VdcDebounceUnder"
+                }
+            },
+            "VdcFiltered": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5164,
+                    "length": 2,
+                    "name": "VdcFiltered",
+                    "type": "int",
+                    "varname": "Measurements.process.VdcFiltered"
+                }
+            },
+            "VdcScaled": {
+                "overRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5166,
+                        "length": 2,
+                        "name": "overRange",
+                        "type": "int",
+                        "varname": "Measurements.process.VdcScaled.overRange"
+                    }
+                },
+                "underRange": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5168,
+                        "length": 2,
+                        "name": "underRange",
+                        "type": "int",
+                        "varname": "Measurements.process.VdcScaled.underRange"
+                    }
+                },
+                "value": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5170,
+                        "length": 2,
+                        "name": "value",
+                        "type": "int",
+                        "varname": "Measurements.process.VdcScaled.value"
+                    }
+                }
+            },
+            "VllInput1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5172,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5174,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5176,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput1.T"
+                    }
+                }
+            },
+            "VllInput2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5178,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5180,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5182,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VllInput2.T"
+                    }
+                }
+            },
+            "VllMeasured1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5184,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5186,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5188,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured1.T"
+                    }
+                }
+            },
+            "VllMeasured2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5190,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5192,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5194,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.process.VllMeasured2.T"
+                    }
+                }
+            }
+        },
+        "samples": {
+            "IdcSample1": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5196,
+                    "length": 2,
+                    "name": "IdcSample1",
+                    "type": "int",
+                    "varname": "Measurements.samples.IdcSample1"
+                }
+            },
+            "IdcSample2": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5198,
+                    "length": 2,
+                    "name": "IdcSample2",
+                    "type": "int",
+                    "varname": "Measurements.samples.IdcSample2"
+                }
+            },
+            "UserButtons": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5200,
+                    "length": 2,
+                    "name": "UserButtons",
+                    "type": "int",
+                    "varname": "Measurements.samples.UserButtons"
+                }
+            },
+            "UserPot": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5202,
+                    "length": 2,
+                    "name": "UserPot",
+                    "type": "int",
+                    "varname": "Measurements.samples.UserPot"
+                }
+            },
+            "VacSample1": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5204,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample1.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5206,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample1.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5208,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample1.T"
+                    }
+                }
+            },
+            "VacSample2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5210,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5212,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5214,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.T"
+                    }
+                }
+            },
+            "VdcSample": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5216,
+                    "length": 2,
+                    "name": "VdcSample",
+                    "type": "int",
+                    "varname": "Measurements.samples.VdcSample"
+                }
+            }
+        }
+    },
+    "Settings": {
+        "Buttons": {
+            "ratioValues": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5218,
+                    "length": 2,
+                    "name": "ratioValues",
+                    "type": "int",
+                    "varname": "Settings.Buttons.ratioValues"
+                }
+            },
+            "tableLength": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5220,
+                    "length": 2,
+                    "name": "tableLength",
+                    "type": "int",
+                    "varname": "Settings.Buttons.tableLength"
+                }
+            },
+            "tolerance": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5222,
+                    "length": 2,
+                    "name": "tolerance",
+                    "type": "int",
+                    "varname": "Settings.Buttons.tolerance"
+                }
+            }
+        },
+        "Logic": {
+            "LevelSampledButtons": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5224,
+                    "length": 2,
+                    "name": "LevelSampledButtons",
+                    "type": "int",
+                    "varname": "Settings.Logic.LevelSampledButtons"
+                }
+            },
+            "NrOfFaultsToScope": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5226,
+                    "length": 2,
+                    "name": "NrOfFaultsToScope",
+                    "type": "int",
+                    "varname": "Settings.Logic.NrOfFaultsToScope"
+                }
+            },
+            "PolarityMask": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5228,
+                    "length": 2,
+                    "name": "PolarityMask",
+                    "type": "int",
+                    "varname": "Settings.Logic.PolarityMask"
+                }
+            },
+            "SelectionMask": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5230,
+                    "length": 2,
+                    "name": "SelectionMask",
+                    "type": "int",
+                    "varname": "Settings.Logic.SelectionMask"
+                }
+            }
+        },
+        "Process": {
+            "ClarkeTransform": {
+                "GainComp": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5232,
+                        "length": 2,
+                        "name": "GainComp",
+                        "type": "int",
+                        "varname": "Settings.Process.ClarkeTransform.GainComp"
+                    }
+                },
+                "Offset": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5234,
+                        "length": 2,
+                        "name": "Offset",
+                        "type": "int",
+                        "varname": "Settings.Process.ClarkeTransform.Offset"
+                    }
+                }
+            },
+            "CurrentControl": {
+                "CdpLut": {
+                    "Lut": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5236,
+                            "length": 20,
+                            "name": "Lut",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CdpLut.Lut"
+                        }
+                    },
+                    "LutLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5256,
+                            "length": 2,
+                            "name": "LutLength",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CdpLut.LutLength"
+                        }
+                    }
+                },
+                "CurrentControl": {
+                    "Kd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5258,
+                            "length": 2,
+                            "name": "Kd",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.Kd"
+                        }
+                    },
+                    "Ki": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5260,
+                            "length": 2,
+                            "name": "Ki",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.Ki"
+                        }
+                    },
+                    "Kp": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5262,
+                            "length": 2,
+                            "name": "Kp",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.Kp"
+                        }
+                    },
+                    "LowerLimit": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5264,
+                            "length": 2,
+                            "name": "LowerLimit",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.LowerLimit"
+                        }
+                    },
+                    "PosPolarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5266,
+                            "length": 2,
+                            "name": "PosPolarity",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.PosPolarity"
+                        }
+                    },
+                    "UpperLimit": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5268,
+                            "length": 2,
+                            "name": "UpperLimit",
+                            "type": "int",
+                            "varname": "Settings.Process.CurrentControl.CurrentControl.UpperLimit"
+                        }
+                    }
+                },
+                "InitialFiringAngle": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5270,
+                        "length": 2,
+                        "name": "InitialFiringAngle",
+                        "type": "int",
+                        "varname": "Settings.Process.CurrentControl.InitialFiringAngle"
+                    }
+                }
+            },
+            "DebounceIdc1": {
+                "FromTimings": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5272,
+                        "length": 2,
+                        "name": "FromTimings",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc1.FromTimings"
+                    }
+                },
+                "FrontEnd": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5274,
+                        "length": 2,
+                        "name": "FrontEnd",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc1.FrontEnd"
+                    }
+                },
+                "Polarity": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5276,
+                        "length": 2,
+                        "name": "Polarity",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc1.Polarity"
+                    }
+                },
+                "Raw": {
+                    "Accept": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5278,
+                            "length": 2,
+                            "name": "Accept",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Raw.Accept"
+                        }
+                    },
+                    "Attack": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5280,
+                            "length": 2,
+                            "name": "Attack",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Raw.Attack"
+                        }
+                    },
+                    "Decay": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5282,
+                            "length": 2,
+                            "name": "Decay",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Raw.Decay"
+                        }
+                    },
+                    "Reject": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5284,
+                            "length": 2,
+                            "name": "Reject",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Raw.Reject"
+                        }
+                    },
+                    "TopLevel": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5286,
+                            "length": 2,
+                            "name": "TopLevel",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Raw.TopLevel"
+                        }
+                    }
+                },
+                "Threshold": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5288,
+                        "length": 2,
+                        "name": "Threshold",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc1.Threshold"
+                    }
+                },
+                "Timings": {
+                    "InitDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5290,
+                            "length": 2,
+                            "name": "InitDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Timings.InitDetectTime"
+                        }
+                    },
+                    "MaxClearTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5292,
+                            "length": 2,
+                            "name": "MaxClearTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Timings.MaxClearTime"
+                        }
+                    },
+                    "MinHoldTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5294,
+                            "length": 2,
+                            "name": "MinHoldTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Timings.MinHoldTime"
+                        }
+                    },
+                    "RepeatDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5296,
+                            "length": 2,
+                            "name": "RepeatDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Timings.RepeatDetectTime"
+                        }
+                    },
+                    "SamplePeriod": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5298,
+                            "length": 2,
+                            "name": "SamplePeriod",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc1.Timings.SamplePeriod"
+                        }
+                    }
+                }
+            },
+            "DebounceIdc2": {
+                "FromTimings": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5300,
+                        "length": 2,
+                        "name": "FromTimings",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc2.FromTimings"
+                    }
+                },
+                "FrontEnd": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5302,
+                        "length": 2,
+                        "name": "FrontEnd",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc2.FrontEnd"
+                    }
+                },
+                "Polarity": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5304,
+                        "length": 2,
+                        "name": "Polarity",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc2.Polarity"
+                    }
+                },
+                "Raw": {
+                    "Accept": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5306,
+                            "length": 2,
+                            "name": "Accept",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Raw.Accept"
+                        }
+                    },
+                    "Attack": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5308,
+                            "length": 2,
+                            "name": "Attack",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Raw.Attack"
+                        }
+                    },
+                    "Decay": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5310,
+                            "length": 2,
+                            "name": "Decay",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Raw.Decay"
+                        }
+                    },
+                    "Reject": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5312,
+                            "length": 2,
+                            "name": "Reject",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Raw.Reject"
+                        }
+                    },
+                    "TopLevel": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5314,
+                            "length": 2,
+                            "name": "TopLevel",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Raw.TopLevel"
+                        }
+                    }
+                },
+                "Threshold": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5316,
+                        "length": 2,
+                        "name": "Threshold",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceIdc2.Threshold"
+                    }
+                },
+                "Timings": {
+                    "InitDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5318,
+                            "length": 2,
+                            "name": "InitDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Timings.InitDetectTime"
+                        }
+                    },
+                    "MaxClearTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5320,
+                            "length": 2,
+                            "name": "MaxClearTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Timings.MaxClearTime"
+                        }
+                    },
+                    "MinHoldTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5322,
+                            "length": 2,
+                            "name": "MinHoldTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Timings.MinHoldTime"
+                        }
+                    },
+                    "RepeatDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5324,
+                            "length": 2,
+                            "name": "RepeatDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Timings.RepeatDetectTime"
+                        }
+                    },
+                    "SamplePeriod": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5326,
+                            "length": 2,
+                            "name": "SamplePeriod",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceIdc2.Timings.SamplePeriod"
+                        }
+                    }
+                }
+            },
+            "DebouncePdc": {
+                "FromTimings": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5328,
+                        "length": 2,
+                        "name": "FromTimings",
+                        "type": "int",
+                        "varname": "Settings.Process.DebouncePdc.FromTimings"
+                    }
+                },
+                "FrontEnd": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5330,
+                        "length": 2,
+                        "name": "FrontEnd",
+                        "type": "int",
+                        "varname": "Settings.Process.DebouncePdc.FrontEnd"
+                    }
+                },
+                "Polarity": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5332,
+                        "length": 2,
+                        "name": "Polarity",
+                        "type": "int",
+                        "varname": "Settings.Process.DebouncePdc.Polarity"
+                    }
+                },
+                "Raw": {
+                    "Accept": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5334,
+                            "length": 2,
+                            "name": "Accept",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Raw.Accept"
+                        }
+                    },
+                    "Attack": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5336,
+                            "length": 2,
+                            "name": "Attack",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Raw.Attack"
+                        }
+                    },
+                    "Decay": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5338,
+                            "length": 2,
+                            "name": "Decay",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Raw.Decay"
+                        }
+                    },
+                    "Reject": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5340,
+                            "length": 2,
+                            "name": "Reject",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Raw.Reject"
+                        }
+                    },
+                    "TopLevel": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5342,
+                            "length": 2,
+                            "name": "TopLevel",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Raw.TopLevel"
+                        }
+                    }
+                },
+                "Threshold": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5344,
+                        "length": 2,
+                        "name": "Threshold",
+                        "type": "int",
+                        "varname": "Settings.Process.DebouncePdc.Threshold"
+                    }
+                },
+                "Timings": {
+                    "InitDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5346,
+                            "length": 2,
+                            "name": "InitDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Timings.InitDetectTime"
+                        }
+                    },
+                    "MaxClearTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5348,
+                            "length": 2,
+                            "name": "MaxClearTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Timings.MaxClearTime"
+                        }
+                    },
+                    "MinHoldTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5350,
+                            "length": 2,
+                            "name": "MinHoldTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Timings.MinHoldTime"
+                        }
+                    },
+                    "RepeatDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5352,
+                            "length": 2,
+                            "name": "RepeatDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Timings.RepeatDetectTime"
+                        }
+                    },
+                    "SamplePeriod": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5354,
+                            "length": 2,
+                            "name": "SamplePeriod",
+                            "type": "int",
+                            "varname": "Settings.Process.DebouncePdc.Timings.SamplePeriod"
+                        }
+                    }
+                }
+            },
+            "DebounceVacOver": {
+                "Settings_R": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5356,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_R.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5358,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_R.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5360,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_R.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5362,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5364,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5366,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5368,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5370,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5372,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_R.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5374,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5376,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5378,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5380,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5382,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_R.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5384,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_S.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5386,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_S.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5388,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_S.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5390,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5392,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5394,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5396,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5398,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5400,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_S.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5402,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5404,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5406,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5408,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5410,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_S.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5412,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_T.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5414,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_T.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5416,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_T.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5418,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5420,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5422,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5424,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5426,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5428,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacOver.Settings_T.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5430,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5432,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5434,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5436,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5438,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacOver.Settings_T.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                }
+            },
+            "DebounceVacUnder": {
+                "Settings_R": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5440,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_R.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5442,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_R.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5444,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_R.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5446,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5448,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5450,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5452,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5454,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5456,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_R.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5458,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5460,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5462,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5464,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5466,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_R.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5468,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_S.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5470,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_S.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5472,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_S.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5474,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5476,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5478,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5480,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5482,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5484,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_S.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5486,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5488,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5490,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5492,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5494,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_S.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5496,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_T.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5498,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_T.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5500,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_T.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5502,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5504,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5506,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5508,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5510,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5512,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVacUnder.Settings_T.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5514,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5516,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5518,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5520,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5522,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.DebounceVacUnder.Settings_T.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                }
+            },
+            "DebounceVdcOver": {
+                "FromTimings": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5524,
+                        "length": 2,
+                        "name": "FromTimings",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcOver.FromTimings"
+                    }
+                },
+                "FrontEnd": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5526,
+                        "length": 2,
+                        "name": "FrontEnd",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcOver.FrontEnd"
+                    }
+                },
+                "Polarity": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5528,
+                        "length": 2,
+                        "name": "Polarity",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcOver.Polarity"
+                    }
+                },
+                "Raw": {
+                    "Accept": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5530,
+                            "length": 2,
+                            "name": "Accept",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Raw.Accept"
+                        }
+                    },
+                    "Attack": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5532,
+                            "length": 2,
+                            "name": "Attack",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Raw.Attack"
+                        }
+                    },
+                    "Decay": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5534,
+                            "length": 2,
+                            "name": "Decay",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Raw.Decay"
+                        }
+                    },
+                    "Reject": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5536,
+                            "length": 2,
+                            "name": "Reject",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Raw.Reject"
+                        }
+                    },
+                    "TopLevel": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5538,
+                            "length": 2,
+                            "name": "TopLevel",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Raw.TopLevel"
+                        }
+                    }
+                },
+                "Threshold": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5540,
+                        "length": 2,
+                        "name": "Threshold",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcOver.Threshold"
+                    }
+                },
+                "Timings": {
+                    "InitDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5542,
+                            "length": 2,
+                            "name": "InitDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Timings.InitDetectTime"
+                        }
+                    },
+                    "MaxClearTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5544,
+                            "length": 2,
+                            "name": "MaxClearTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Timings.MaxClearTime"
+                        }
+                    },
+                    "MinHoldTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5546,
+                            "length": 2,
+                            "name": "MinHoldTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Timings.MinHoldTime"
+                        }
+                    },
+                    "RepeatDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5548,
+                            "length": 2,
+                            "name": "RepeatDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Timings.RepeatDetectTime"
+                        }
+                    },
+                    "SamplePeriod": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5550,
+                            "length": 2,
+                            "name": "SamplePeriod",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcOver.Timings.SamplePeriod"
+                        }
+                    }
+                }
+            },
+            "DebounceVdcUnder": {
+                "FromTimings": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5552,
+                        "length": 2,
+                        "name": "FromTimings",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcUnder.FromTimings"
+                    }
+                },
+                "FrontEnd": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5554,
+                        "length": 2,
+                        "name": "FrontEnd",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcUnder.FrontEnd"
+                    }
+                },
+                "Polarity": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5556,
+                        "length": 2,
+                        "name": "Polarity",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcUnder.Polarity"
+                    }
+                },
+                "Raw": {
+                    "Accept": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5558,
+                            "length": 2,
+                            "name": "Accept",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Raw.Accept"
+                        }
+                    },
+                    "Attack": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5560,
+                            "length": 2,
+                            "name": "Attack",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Raw.Attack"
+                        }
+                    },
+                    "Decay": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5562,
+                            "length": 2,
+                            "name": "Decay",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Raw.Decay"
+                        }
+                    },
+                    "Reject": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5564,
+                            "length": 2,
+                            "name": "Reject",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Raw.Reject"
+                        }
+                    },
+                    "TopLevel": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5566,
+                            "length": 2,
+                            "name": "TopLevel",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Raw.TopLevel"
+                        }
+                    }
+                },
+                "Threshold": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5568,
+                        "length": 2,
+                        "name": "Threshold",
+                        "type": "int",
+                        "varname": "Settings.Process.DebounceVdcUnder.Threshold"
+                    }
+                },
+                "Timings": {
+                    "InitDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5570,
+                            "length": 2,
+                            "name": "InitDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Timings.InitDetectTime"
+                        }
+                    },
+                    "MaxClearTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5572,
+                            "length": 2,
+                            "name": "MaxClearTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Timings.MaxClearTime"
+                        }
+                    },
+                    "MinHoldTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5574,
+                            "length": 2,
+                            "name": "MinHoldTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Timings.MinHoldTime"
+                        }
+                    },
+                    "RepeatDetectTime": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5576,
+                            "length": 2,
+                            "name": "RepeatDetectTime",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Timings.RepeatDetectTime"
+                        }
+                    },
+                    "SamplePeriod": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5578,
+                            "length": 2,
+                            "name": "SamplePeriod",
+                            "type": "int",
+                            "varname": "Settings.Process.DebounceVdcUnder.Timings.SamplePeriod"
+                        }
+                    }
+                }
+            },
+            "FilterIdc1": {
+                "a0": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5580,
+                        "length": 2,
+                        "name": "a0",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc1.a0"
+                    }
+                },
+                "a1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5582,
+                        "length": 2,
+                        "name": "a1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc1.a1"
+                    }
+                },
+                "a2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5584,
+                        "length": 2,
+                        "name": "a2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc1.a2"
+                    }
+                },
+                "b1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5586,
+                        "length": 2,
+                        "name": "b1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc1.b1"
+                    }
+                },
+                "b2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5588,
+                        "length": 2,
+                        "name": "b2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc1.b2"
+                    }
+                }
+            },
+            "FilterIdc2": {
+                "a0": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5590,
+                        "length": 2,
+                        "name": "a0",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc2.a0"
+                    }
+                },
+                "a1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5592,
+                        "length": 2,
+                        "name": "a1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc2.a1"
+                    }
+                },
+                "a2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5594,
+                        "length": 2,
+                        "name": "a2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc2.a2"
+                    }
+                },
+                "b1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5596,
+                        "length": 2,
+                        "name": "b1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc2.b1"
+                    }
+                },
+                "b2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5598,
+                        "length": 2,
+                        "name": "b2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterIdc2.b2"
+                    }
+                }
+            },
+            "FilterVac1": {
+                "Settings_R": {
+                    "a0": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5600,
+                            "length": 2,
+                            "name": "a0",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_R.a0"
+                        }
+                    },
+                    "a1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5602,
+                            "length": 2,
+                            "name": "a1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_R.a1"
+                        }
+                    },
+                    "a2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5604,
+                            "length": 2,
+                            "name": "a2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_R.a2"
+                        }
+                    },
+                    "b1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5606,
+                            "length": 2,
+                            "name": "b1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_R.b1"
+                        }
+                    },
+                    "b2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5608,
+                            "length": 2,
+                            "name": "b2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_R.b2"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "a0": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5610,
+                            "length": 2,
+                            "name": "a0",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_S.a0"
+                        }
+                    },
+                    "a1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5612,
+                            "length": 2,
+                            "name": "a1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_S.a1"
+                        }
+                    },
+                    "a2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5614,
+                            "length": 2,
+                            "name": "a2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_S.a2"
+                        }
+                    },
+                    "b1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5616,
+                            "length": 2,
+                            "name": "b1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_S.b1"
+                        }
+                    },
+                    "b2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5618,
+                            "length": 2,
+                            "name": "b2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_S.b2"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "a0": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5620,
+                            "length": 2,
+                            "name": "a0",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_T.a0"
+                        }
+                    },
+                    "a1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5622,
+                            "length": 2,
+                            "name": "a1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_T.a1"
+                        }
+                    },
+                    "a2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5624,
+                            "length": 2,
+                            "name": "a2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_T.a2"
+                        }
+                    },
+                    "b1": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5626,
+                            "length": 2,
+                            "name": "b1",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_T.b1"
+                        }
+                    },
+                    "b2": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5628,
+                            "length": 2,
+                            "name": "b2",
+                            "type": "int",
+                            "varname": "Settings.Process.FilterVac1.Settings_T.b2"
+                        }
+                    }
+                }
+            },
+            "FilterVdc": {
+                "a0": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5630,
+                        "length": 2,
+                        "name": "a0",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterVdc.a0"
+                    }
+                },
+                "a1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5632,
+                        "length": 2,
+                        "name": "a1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterVdc.a1"
+                    }
+                },
+                "a2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5634,
+                        "length": 2,
+                        "name": "a2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterVdc.a2"
+                    }
+                },
+                "b1": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5636,
+                        "length": 2,
+                        "name": "b1",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterVdc.b1"
+                    }
+                },
+                "b2": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5638,
+                        "length": 2,
+                        "name": "b2",
+                        "type": "int",
+                        "varname": "Settings.Process.FilterVdc.b2"
+                    }
+                }
+            },
+            "MeasureVac1": {
+                "Settings_R": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5640,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac1.Settings_R.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5642,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac1.Settings_S.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5644,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac1.Settings_T.SamplesLength"
+                        }
+                    }
+                }
+            },
+            "MeasureVac2": {
+                "Settings_R": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5646,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac2.Settings_R.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5648,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac2.Settings_S.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5650,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVac2.Settings_T.SamplesLength"
+                        }
+                    }
+                }
+            },
+            "MeasureVll1": {
+                "Settings_R": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5652,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll1.Settings_R.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5654,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll1.Settings_S.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5656,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll1.Settings_T.SamplesLength"
+                        }
+                    }
+                }
+            },
+            "MeasureVll2": {
+                "Settings_R": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5658,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll2.Settings_R.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5660,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll2.Settings_S.SamplesLength"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5662,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.MeasureVll2.Settings_T.SamplesLength"
+                        }
+                    }
+                }
+            },
+            "Pll": {
+                "DebounceError": {
+                    "FromTimings": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5664,
+                            "length": 2,
+                            "name": "FromTimings",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.DebounceError.FromTimings"
+                        }
+                    },
+                    "FrontEnd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5666,
+                            "length": 2,
+                            "name": "FrontEnd",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.DebounceError.FrontEnd"
+                        }
+                    },
+                    "Polarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5668,
+                            "length": 2,
+                            "name": "Polarity",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.DebounceError.Polarity"
+                        }
+                    },
+                    "Raw": {
+                        "Accept": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5670,
+                                "length": 2,
+                                "name": "Accept",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Raw.Accept"
+                            }
+                        },
+                        "Attack": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5672,
+                                "length": 2,
+                                "name": "Attack",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Raw.Attack"
+                            }
+                        },
+                        "Decay": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5674,
+                                "length": 2,
+                                "name": "Decay",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Raw.Decay"
+                            }
+                        },
+                        "Reject": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5676,
+                                "length": 2,
+                                "name": "Reject",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Raw.Reject"
+                            }
+                        },
+                        "TopLevel": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5678,
+                                "length": 2,
+                                "name": "TopLevel",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Raw.TopLevel"
+                            }
+                        }
+                    },
+                    "Threshold": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5680,
+                            "length": 2,
+                            "name": "Threshold",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.DebounceError.Threshold"
+                        }
+                    },
+                    "Timings": {
+                        "InitDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5682,
+                                "length": 2,
+                                "name": "InitDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Timings.InitDetectTime"
+                            }
+                        },
+                        "MaxClearTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5684,
+                                "length": 2,
+                                "name": "MaxClearTime",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Timings.MaxClearTime"
+                            }
+                        },
+                        "MinHoldTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5686,
+                                "length": 2,
+                                "name": "MinHoldTime",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Timings.MinHoldTime"
+                            }
+                        },
+                        "RepeatDetectTime": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5688,
+                                "length": 2,
+                                "name": "RepeatDetectTime",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Timings.RepeatDetectTime"
+                            }
+                        },
+                        "SamplePeriod": {
+                            "mbrecord": {
+                                "access": "RW",
+                                "address": 5690,
+                                "length": 2,
+                                "name": "SamplePeriod",
+                                "type": "int",
+                                "varname": "Settings.Process.Pll.DebounceError.Timings.SamplePeriod"
+                            }
+                        }
+                    }
+                },
+                "PeriodCalc": {
+                    "SamplesLength": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5692,
+                            "length": 2,
+                            "name": "SamplesLength",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.PeriodCalc.SamplesLength"
+                        }
+                    }
+                },
+                "PhaseErrorLut": {},
+                "Pid": {
+                    "Kd": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5694,
+                            "length": 2,
+                            "name": "Kd",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.Kd"
+                        }
+                    },
+                    "Ki": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5696,
+                            "length": 2,
+                            "name": "Ki",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.Ki"
+                        }
+                    },
+                    "Kp": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5698,
+                            "length": 2,
+                            "name": "Kp",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.Kp"
+                        }
+                    },
+                    "LowerLimit": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5700,
+                            "length": 2,
+                            "name": "LowerLimit",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.LowerLimit"
+                        }
+                    },
+                    "PosPolarity": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5702,
+                            "length": 2,
+                            "name": "PosPolarity",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.PosPolarity"
+                        }
+                    },
+                    "UpperLimit": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5704,
+                            "length": 2,
+                            "name": "UpperLimit",
+                            "type": "int",
+                            "varname": "Settings.Process.Pll.Pid.UpperLimit"
+                        }
+                    }
+                },
+                "RampOffsetAngle": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5706,
+                        "length": 2,
+                        "name": "RampOffsetAngle",
+                        "type": "int",
+                        "varname": "Settings.Process.Pll.RampOffsetAngle"
+                    }
+                },
+                "RefFrequency": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5708,
+                        "length": 2,
+                        "name": "RefFrequency",
+                        "type": "int",
+                        "varname": "Settings.Process.Pll.RefFrequency"
+                    }
+                }
+            },
+            "ScaleIdc1": {
+                "Gain": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5710,
+                        "length": 2,
+                        "name": "Gain",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc1.Gain"
+                    }
+                },
+                "Offset": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5712,
+                        "length": 2,
+                        "name": "Offset",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc1.Offset"
+                    }
+                },
+                "RangeMax": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5714,
+                        "length": 2,
+                        "name": "RangeMax",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc1.RangeMax"
+                    }
+                },
+                "RangeMin": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5716,
+                        "length": 2,
+                        "name": "RangeMin",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc1.RangeMin"
+                    }
+                }
+            },
+            "ScaleIdc2": {
+                "Gain": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5718,
+                        "length": 2,
+                        "name": "Gain",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc2.Gain"
+                    }
+                },
+                "Offset": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5720,
+                        "length": 2,
+                        "name": "Offset",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc2.Offset"
+                    }
+                },
+                "RangeMax": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5722,
+                        "length": 2,
+                        "name": "RangeMax",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc2.RangeMax"
+                    }
+                },
+                "RangeMin": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5724,
+                        "length": 2,
+                        "name": "RangeMin",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleIdc2.RangeMin"
+                    }
+                }
+            },
+            "ScaleVac1": {
+                "Settings_R": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5726,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_R.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5728,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_R.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5730,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_R.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5732,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_R.RangeMin"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5734,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_S.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5736,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_S.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5738,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_S.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5740,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_S.RangeMin"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5742,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_T.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5744,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_T.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5746,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_T.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5748,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac1.Settings_T.RangeMin"
+                        }
+                    }
+                }
+            },
+            "ScaleVac2": {
+                "Settings_R": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5750,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_R.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5752,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_R.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5754,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_R.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5756,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_R.RangeMin"
+                        }
+                    }
+                },
+                "Settings_S": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5758,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_S.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5760,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_S.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5762,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_S.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5764,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_S.RangeMin"
+                        }
+                    }
+                },
+                "Settings_T": {
+                    "Gain": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5766,
+                            "length": 2,
+                            "name": "Gain",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_T.Gain"
+                        }
+                    },
+                    "Offset": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5768,
+                            "length": 2,
+                            "name": "Offset",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_T.Offset"
+                        }
+                    },
+                    "RangeMax": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5770,
+                            "length": 2,
+                            "name": "RangeMax",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_T.RangeMax"
+                        }
+                    },
+                    "RangeMin": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5772,
+                            "length": 2,
+                            "name": "RangeMin",
+                            "type": "int",
+                            "varname": "Settings.Process.ScaleVac2.Settings_T.RangeMin"
+                        }
+                    }
+                }
+            },
+            "ScaleVdc": {
+                "Gain": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5774,
+                        "length": 2,
+                        "name": "Gain",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleVdc.Gain"
+                    }
+                },
+                "Offset": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5776,
+                        "length": 2,
+                        "name": "Offset",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleVdc.Offset"
+                    }
+                },
+                "RangeMax": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5778,
+                        "length": 2,
+                        "name": "RangeMax",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleVdc.RangeMax"
+                    }
+                },
+                "RangeMin": {
+                    "mbrecord": {
+                        "access": "RW",
+                        "address": 5780,
+                        "length": 2,
+                        "name": "RangeMin",
+                        "type": "int",
+                        "varname": "Settings.Process.ScaleVdc.RangeMin"
+                    }
+                }
+            },
+            "SigGen": {
+                "Settings_A": {
+                    "Enable": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5782,
+                            "length": 2,
+                            "name": "Enable",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_A.Enable"
+                        }
+                    },
+                    "Frequency": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5784,
+                            "length": 2,
+                            "name": "Frequency",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_A.Frequency"
+                        }
+                    },
+                    "PhaseDeg": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5786,
+                            "length": 2,
+                            "name": "PhaseDeg",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_A.PhaseDeg"
+                        }
+                    },
+                    "VrmsOut": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5788,
+                            "length": 2,
+                            "name": "VrmsOut",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_A.VrmsOut"
+                        }
+                    }
+                },
+                "Settings_B": {
+                    "Enable": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5790,
+                            "length": 2,
+                            "name": "Enable",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_B.Enable"
+                        }
+                    },
+                    "Frequency": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5792,
+                            "length": 2,
+                            "name": "Frequency",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_B.Frequency"
+                        }
+                    },
+                    "PhaseDeg": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5794,
+                            "length": 2,
+                            "name": "PhaseDeg",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_B.PhaseDeg"
+                        }
+                    },
+                    "VrmsOut": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5796,
+                            "length": 2,
+                            "name": "VrmsOut",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_B.VrmsOut"
+                        }
+                    }
+                },
+                "Settings_C": {
+                    "Enable": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5798,
+                            "length": 2,
+                            "name": "Enable",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_C.Enable"
+                        }
+                    },
+                    "Frequency": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5800,
+                            "length": 2,
+                            "name": "Frequency",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_C.Frequency"
+                        }
+                    },
+                    "PhaseDeg": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5802,
+                            "length": 2,
+                            "name": "PhaseDeg",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_C.PhaseDeg"
+                        }
+                    },
+                    "VrmsOut": {
+                        "mbrecord": {
+                            "access": "RW",
+                            "address": 5804,
+                            "length": 2,
+                            "name": "VrmsOut",
+                            "type": "int",
+                            "varname": "Settings.Process.SigGen.Settings_C.VrmsOut"
+                        }
+                    }
+                }
+            }
+        },
+        "PulseGen": {
+            "FiringOnTime": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5806,
+                    "length": 2,
+                    "name": "FiringOnTime",
+                    "type": "int",
+                    "varname": "Settings.PulseGen.FiringOnTime"
+                }
+            },
+            "Inv1ToInv2": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5808,
+                    "length": 2,
+                    "name": "Inv1ToInv2",
+                    "type": "int",
+                    "varname": "Settings.PulseGen.Inv1ToInv2"
+                }
+            },
+            "PreEcho": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5810,
+                    "length": 2,
+                    "name": "PreEcho",
+                    "type": "int",
+                    "varname": "Settings.PulseGen.PreEcho"
+                }
+            }
+        },
+        "Scope": {
+            "Testpoint": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5812,
+                    "length": 4,
+                    "name": "Testpoint",
+                    "type": "int",
+                    "varname": "Settings.Scope.Testpoint"
+                }
+            }
+        },
+        "ScopeSelect": {
+            "nrOfTaps": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5816,
+                    "length": 2,
+                    "name": "nrOfTaps",
+                    "type": "int",
+                    "varname": "Settings.ScopeSelect.nrOfTaps"
+                }
+            },
+            "topValue": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5818,
+                    "length": 2,
+                    "name": "topValue",
+                    "type": "int",
+                    "varname": "Settings.ScopeSelect.topValue"
+                }
+            }
+        },
+        "Version": {
+            "Dirty": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5820,
+                    "length": 2,
+                    "name": "Dirty",
+                    "type": "int",
+                    "varname": "Settings.Version.Dirty"
+                }
+            },
+            "Hash": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5822,
+                    "length": 2,
+                    "name": "Hash",
+                    "type": "int",
+                    "varname": "Settings.Version.Hash"
+                }
+            },
+            "Major": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5824,
+                    "length": 2,
+                    "name": "Major",
+                    "type": "int",
+                    "varname": "Settings.Version.Major"
+                }
+            },
+            "Minor": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5826,
+                    "length": 2,
+                    "name": "Minor",
+                    "type": "int",
+                    "varname": "Settings.Version.Minor"
+                }
+            },
+            "Subversion": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5828,
+                    "length": 2,
+                    "name": "Subversion",
+                    "type": "int",
+                    "varname": "Settings.Version.Subversion"
+                }
+            }
+        },
+        "checksum": {
+            "mbrecord": {
+                "access": "RW",
+                "address": 5830,
+                "length": 2,
+                "name": "checksum",
+                "type": "int",
+                "varname": "Settings.checksum"
+            }
+        }
+    }
+}

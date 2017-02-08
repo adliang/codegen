@@ -21,8 +21,10 @@ def template_loop(templatefile, outputfile, tpl_data):
     start_tag = '[tpl]'
     end_tag = '[/tpl]'
 
+
     # Splits string s into three sections across the first and last tags. Returns array of the three sections
     def split_string(s, first, last):
+
 
         if (first not in s) or (last not in s):
             input("No valid template tags in template file. Press enter to continue...")

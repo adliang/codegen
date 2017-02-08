@@ -22,13 +22,10 @@ def get_values(dict_in, key_find):
     def value_gen(d):
         for key, value in d.items():
             if key == key_find:
-
                 yield value
-
             elif isinstance(value, dict):
                 for id_val in value_gen(value):
                     yield id_val
-
     for values in value_gen(dict_in):
         values_list.append(values)
 
@@ -36,17 +33,19 @@ def get_values(dict_in, key_find):
 
 
 def get_address(record_list):
+
+
     start_address = 5000
     used_address = []
-    record_list = sorted(record_list, key=lambda entry: entry['varname'])
     alloc_error = False
 
     # Assigns allocated addresses first
+    record_list = sorted(record_list, key=lambda entry: entry['varname'])
     for entry in record_list:
         try:
             if entry['alloc']:
                 alloc_address = entry['alloc']
-                while any(j in list(range(alloc_address, alloc_address+entry['length'])) for j in used_address):
+                while any(j in list(range(alloc_address, alloc_address + entry['length'])) for j in used_address):
                     alloc_address += 1
                     alloc_error = True
                 if alloc_error == True:
@@ -73,7 +72,7 @@ def get_address(record_list):
 
     return record_list
 
-# ---------------------------------------------------------------------- #
+
 # Reads config file, saves backup
 def readconfig(config_file):
 
@@ -88,12 +87,13 @@ def readconfig(config_file):
 
     return config_data
 
+
 def generate_mbmap(config_file, config_key, output_file = None):
     ''' Takes input config_file, returns json list containing entries with assigned addresses'''
 
+
     config_data = readconfig(config_file)
     mbrecords = get_values(config_data, config_key)
-
     parsed_records = get_address(mbrecords)
 
     # Writes address assigned records to file
