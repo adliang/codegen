@@ -4,323 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8588f4dd-6c51-459b-8718-130c6ecafc02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guidesign.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guimain.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ModbusGUI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/draft files/codegen_old.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/draft files/config_old.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/draft files/testfile.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mbrecords.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modbusDB.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modbusDB.ctpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modbusDB.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modbusdisplay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master (1).zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/_ctemplate.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/build/lib.macosx-10.9-x86_64-2.7/_ctemplate.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/build/lib.macosx-10.9-x86_64-2.7/debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/build/temp.macosx-10.9-x86_64-2.7/_ctemplate.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/build/temp.macosx-10.9-x86_64-2.7/ctemplate.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/ctemplate.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/ctemplate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/ctemplate-python-master/useTemplate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/build/lib/pyModbusTCP/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/build/lib/pyModbusTCP/client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/build/lib/pyModbusTCP/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/build/lib/pyModbusTCP/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/build/lib/pyModbusTCP/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/pyModbusTCP/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/pyModbusTCP/client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/pyModbusTCP/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/pyModbusTCP/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/pyModbusTCP/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pyModbusTCP-0.1.1.tar/dist/pyModbusTCP-0.1.1/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/.pydevproject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/CHANGELOG.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/TODO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/api/doxygen/.doxygen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/api/doxygen/build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/api/epydoc/build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/api/pydoc/build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/api/pydoctor/build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/pymodbus.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/quality/current.coverage" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/quality/current.lint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/quality/current.pep8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/asynchronous-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/asynchronous-processor.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/asynchronous-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/bcd-payload.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/bottle-frontend.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/callback-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/changing-framers.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/concurrent-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/custom-datablock.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/custom-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/database-datastore.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/gtk-frontend.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/libmodbus-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/message-generator.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/message-parser.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modbus-logging.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modbus-payload-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modbus-payload.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modbus-scraper.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modbus-simulator.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/modicon-payload.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/performance.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/redis-datastore.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/remote-server-context.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/serial-forwarder.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/synchronous-client-ext.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/synchronous-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/synchronous-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/thread-safe-datastore.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/tk-frontend.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/updating-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/examples/wx-frontend.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/async-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/async-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/bit-read-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/bit-write-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/client-common.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/constants.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/datastore/context.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/datastore/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/datastore/remote.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/datastore/store.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/device.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/diag-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/events.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/exceptions.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/factory.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/file-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/interfaces.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/mei-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/other-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/payload.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/pdu.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/pymodbus.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/register-read-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/register-write-message.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/sync-client.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/sync-server.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/transaction.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/library/utilities.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/doc/sphinx/static/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/asynchronous-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/asynchronous-processor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/asynchronous-server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/callback-server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/changing-framers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/custom-datablock.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/custom-message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/modbus-logging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/modbus-payload-server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/modbus-payload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/performance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/synchronous-client-ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/synchronous-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/synchronous-server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/common/updating-server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/bcd-payload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/concurrent-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/database-datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/libmodbus-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/message-generator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/message-parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/modbus-scraper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/modbus-simulator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/modbus_mapper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/modbus_saver.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/modicon-payload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/redis-datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/remote_server_context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/rx-messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/serial-forwarder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/sunspec_client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/thread_safe_datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/contrib/tx-messages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/asynchronous-ascii-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/asynchronous-rtu-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/asynchronous-tcp-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/asynchronous-udp-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/base_context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/base_runner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/database-slave-context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/memory-slave-context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/redis-slave-context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/remote-slave-context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/synchronous-ascii-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/synchronous-rtu-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/synchronous-tcp-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/functional/synchronous-udp-client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/frontend.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/css/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/backbone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/backbone.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/media/js/underscore.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/bottle/views/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/gtk/sims/example.sim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/gtk/simulator.glade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/gtk/simulator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/gui-common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/tk/fileopen.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/tk/simulator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/gui/wx/simulator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/build-datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/convert.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/bin/jamod" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/lib/jamod-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/src/ClientExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/src/ModbusSerialSlave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/src/ModbusTcpSlave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/jamod/src/ModbusUdpSlave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/generic/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/generic/virtual-serial.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/THANKS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/TODO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/module/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/module/tty0tty.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/pts/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/pts/tty0tty.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/linux/run" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/windows/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/nullmodem/windows/setup.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/LICENSE-FREE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/crc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/diagslave" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/lrc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reference/modpoll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/reindent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/tools/test-install.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/twisted/modbus-tcp.tac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/twisted/modbus-udp.tac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/examples/twisted/plugins/pymodbus_plugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/ez_setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/bit_read_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/bit_write_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/client/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/client/async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/client/common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/client/sync.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/datastore/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/datastore/context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/datastore/remote.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/datastore/store.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/device.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/diag_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/events.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/factory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/file_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/interfaces.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/internal/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/internal/ptwisted.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/mei_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/other_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/payload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/pdu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/register_read_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/register_write_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/server/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/server/async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/server/sync.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/transaction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/utilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/pymodbus/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/setup.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/setup_commands.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/modbus_mocks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_all_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_bit_read_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_bit_write_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_client_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_client_common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_client_sync.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_device.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_diag_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_events.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_factory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_file_message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_fixes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_interfaces.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_mei_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_other_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_payload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_pdu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_ptwisted.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_register_read_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_register_write_messages.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_remote_datastore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_server_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_server_context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_server_sync.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_transaction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_utilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pymodule files/pymodbus-master/test/test_version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tableguitest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatefunc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testgui.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codegen.py" afterPath="$PROJECT_DIR$/codegen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mbrecordgen.py" afterPath="$PROJECT_DIR$/mbrecordgen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyModSlave-Win-exe-0.3.9/pyModSlave/pyModSlave.log" afterPath="$PROJECT_DIR$/pyModSlave-Win-exe-0.3.9/pyModSlave/pyModSlave.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templater.py" afterPath="$PROJECT_DIR$/templater.py" />
-    </list>
+    <list default="true" id="8588f4dd-6c51-459b-8718-130c6ecafc02" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/ModbusDB.template.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -368,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/codegen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -380,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/mbrecordgen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding>
                 <element signature="e#324#335#0" expanded="true" />
               </folding>
@@ -392,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/templater.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+              <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
               <folding>
                 <element signature="e#328#355#0" expanded="true" />
               </folding>
@@ -403,8 +87,8 @@
       <file leaf-file-name="guidesign.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guidesign.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="391">
+              <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="e#197#239#0" expanded="true" />
               </folding>
@@ -416,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/guimain.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2023">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -467,7 +151,6 @@
         <option value="$PROJECT_DIR$/../threadmain.py" />
         <option value="$PROJECT_DIR$/../sc.py" />
         <option value="$PROJECT_DIR$/../thread.py" />
-        <option value="$PROJECT_DIR$/guidesign.py" />
         <option value="$PROJECT_DIR$/ac.py" />
         <option value="$PROJECT_DIR$/modbusDB.ctpl" />
         <option value="$PROJECT_DIR$/templater.py" />
@@ -475,6 +158,7 @@
         <option value="$PROJECT_DIR$/config_test.json" />
         <option value="$PROJECT_DIR$/codegen.py" />
         <option value="$PROJECT_DIR$/guimain.py" />
+        <option value="$PROJECT_DIR$/guidesign.py" />
       </list>
     </option>
   </component>
@@ -1130,7 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModbusDB.c">
+    <entry file="file://$PROJECT_DIR$/modbusDB.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1717">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -1154,7 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mbrecords.json">
+    <entry file="file://$PROJECT_DIR$/mbrecords.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51872">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
@@ -1173,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/ModbusDB.template.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1197,7 +881,7 @@
     <entry file="file://$PROJECT_DIR$/guimain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2023">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -1207,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/codegen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1217,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/mbrecordgen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding>
             <element signature="e#324#335#0" expanded="true" />
           </folding>
@@ -1227,7 +911,7 @@
     <entry file="file://$PROJECT_DIR$/templater.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
           <folding>
             <element signature="e#328#355#0" expanded="true" />
           </folding>
@@ -1236,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guidesign.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="391">
+          <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="e#197#239#0" expanded="true" />
           </folding>
