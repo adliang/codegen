@@ -1,7 +1,2 @@
-this is some text. THis is some more text.
-Online git report test
-Branch test
-more branch test
-even more branch test
-testing revert
+this is some text.testing revert
 list - changing mbrecordgen.py to output list

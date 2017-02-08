@@ -1,8 +1,0 @@
-// Some comment code. Some changes to this.
-
-void ModBus()
-{		
-	$a
-	$name
-	$type
-}

@@ -1,7 +1,18 @@
-'''Return 0 if no valid tempalte tags found in tempalte file. Else return 1'''
-from pprint import pprint
+#!/usr/bin/env python
+# ====================================================================== #
+'''
+templater.py
+Generates outputfile using templatefile, looping over [tpl] tags with dict
+elements in list input tpl_data
+__author__ = Andrew Liang;
+'''
+# ====================================================================== #
+
 from string import Template
+
+# DELETE - Debugging
 from mbrecordgen import generate_mbmap
+#
 
 
 def template_loop(templatefile, outputfile, tpl_data):
@@ -21,12 +32,12 @@ def template_loop(templatefile, outputfile, tpl_data):
                    s.partition(first)[-1].partition(last)[0], \
                    s.partition(last)[-1]
 
-    # Reads template file
+    # Reads template file, creates output file
     filetemplate = (open(templatefile)).read()
-    header_string, tpl_string, end_string = (split_string(filetemplate, start_tag, end_tag))
+    text_file = open(outputfile, "w")
 
     # Loops over template with list data
-    text_file = open(outputfile, "w")
+    header_string, tpl_string, end_string = (split_string(filetemplate, start_tag, end_tag))
 
     text_file.write(header_string)
 
@@ -36,11 +47,12 @@ def template_loop(templatefile, outputfile, tpl_data):
         text_file.write(tpl_filled)
 
     text_file.write(end_string)
-
-    print('Templating completed')
+    print('(%s) created from %s' %(outputfile, templatefile))
+    print('templater.py completed')
     text_file.close()
     return 1
 
-
+# DELETE - Debugging
 if __name__ == "__main__":
-    template_loop(templatefile = 'modbusDB.ctpl', outputfile = 'modbusDB.c', tpl_data = generate_mbmap('config.json', 'mbrecords'))
+    template_loop(templatefile = 'ModbusDB.template.c', outputfile = 'ModbusDB.c', tpl_data = generate_mbmap('config.json', 'mbrecord'))
+#

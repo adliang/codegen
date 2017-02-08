@@ -1,0 +1,216 @@
+{
+    "Measurements": {
+        "faultlogic": {
+            "activeFaults": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5000,
+                    "length": 2,
+                    "name": "activeFaults",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.activeFaults"
+                }
+            },
+            "enableOutput": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5002,
+                    "length": 2,
+                    "name": "enableOutput",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.enableOutput"
+                }
+            },
+            "faultInputs": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5004,
+                    "length": 2,
+                    "name": "faultInputs",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.faultInputs"
+                }
+            },
+            "faultPresent": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5006,
+                    "length": 2,
+                    "name": "faultPresent",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.faultPresent"
+                }
+            },
+            "pendingCommands": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5008,
+                    "length": 2,
+                    "name": "pendingCommands",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.pendingCommands"
+                }
+            },
+            "tripFault": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5010,
+                    "length": 2,
+                    "name": "tripFault",
+                    "type": "int",
+                    "varname": "Measurements.faultlogic.tripFault"
+                }
+            }
+        },
+        "samples": {
+            "IdcSample1": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5012,
+                    "length": 2,
+                    "name": "IdcSample1",
+                    "type": "int",
+                    "varname": "Measurements.samples.IdcSample1"
+                }
+            },
+            "VacSample2": {
+                "R": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5014,
+                        "length": 2,
+                        "name": "R",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.R"
+                    }
+                },
+                "S": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5016,
+                        "length": 2,
+                        "name": "S",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.S"
+                    }
+                },
+                "T": {
+                    "mbrecord": {
+                        "access": "RO",
+                        "address": 5018,
+                        "length": 2,
+                        "name": "T",
+                        "type": "int",
+                        "varname": "Measurements.samples.VacSample2.T"
+                    }
+                }
+            },
+            "VdcSample": {
+                "mbrecord": {
+                    "access": "RO",
+                    "address": 5020,
+                    "length": 2,
+                    "name": "VdcSample",
+                    "type": "int",
+                    "varname": "Measurements.samples.VdcSample"
+                }
+            }
+        }
+    },
+    "Settings": {
+        "Buttons": {
+            "ratioValues": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5022,
+                    "length": 2,
+                    "name": "ratioValues",
+                    "type": "int",
+                    "varname": "Settings.Buttons.ratioValues"
+                }
+            },
+            "tableLength": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5024,
+                    "length": 2,
+                    "name": "tableLength",
+                    "type": "int",
+                    "varname": "Settings.Buttons.tableLength"
+                }
+            },
+            "tolerance": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5026,
+                    "length": 2,
+                    "name": "tolerance",
+                    "type": "int",
+                    "varname": "Settings.Buttons.tolerance"
+                }
+            }
+        },
+        "Version": {
+            "Dirty": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5028,
+                    "length": 2,
+                    "name": "Dirty",
+                    "type": "int",
+                    "varname": "Settings.Version.Dirty"
+                }
+            },
+            "Hash": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5030,
+                    "length": 2,
+                    "name": "Hash",
+                    "type": "int",
+                    "varname": "Settings.Version.Hash"
+                }
+            },
+            "Major": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5032,
+                    "length": 2,
+                    "name": "Major",
+                    "type": "int",
+                    "varname": "Settings.Version.Major"
+                }
+            },
+            "Minor": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5034,
+                    "length": 2,
+                    "name": "Minor",
+                    "type": "int",
+                    "varname": "Settings.Version.Minor"
+                }
+            },
+            "Subversion": {
+                "mbrecord": {
+                    "access": "RW",
+                    "address": 5036,
+                    "length": 2,
+                    "name": "Subversion",
+                    "type": "int",
+                    "varname": "Settings.Version.Subversion"
+                }
+            }
+        },
+        "checksum": {
+            "mbrecord": {
+                "access": "RW",
+                "address": 5038,
+                "length": 2,
+                "name": "checksum",
+                "type": "int",
+                "varname": "Settings.checksum"
+            }
+        }
+    }
+}
