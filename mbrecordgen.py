@@ -110,7 +110,3 @@ def generate_mbmap(config_file, config_key, output_file = None):
     print('mbrecordgen.py completed')
     return parsed_records
 
-# DELETE - Debugging
-if __name__ == "__main__":
-    generate_mbmap(config_file = 'config.json', output_file = 'mbrecords.json', config_key = 'mbrecord')
-#
