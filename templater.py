@@ -10,9 +10,6 @@ __author__ = Andrew Liang;
 
 from string import Template
 
-# DELETE - Debugging
-from mbrecordgen import generate_mbmap
-#
 
 
 def template_loop(templatefile, outputfile, tpl_data):
@@ -54,7 +51,3 @@ def template_loop(templatefile, outputfile, tpl_data):
     text_file.close()
     return 1
 
-# DELETE - Debugging
-if __name__ == "__main__":
-    template_loop(templatefile = 'ModbusDB.template.c', outputfile = 'ModbusDB.c', tpl_data = generate_mbmap('config.json', 'mbrecord'))
-#

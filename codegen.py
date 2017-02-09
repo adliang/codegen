@@ -1,45 +1,29 @@
 from templater import template_loop
 from mbrecordgen import generate_mbmap
-from pprint import pprint
-from csv import DictWriter
+from prettytable import PrettyTable, ALL, FRAME, HEADER
+from PDFWriter import PDFWriter
+
 
 def main():
 
     # Generate modbus database .c file
-    tpl_data = generate_mbmap('config_test.json', 'mbrecord', 'Mbrecords_test.json')
+    tpl_data = generate_mbmap('config.json', 'mbrecord', 'Mbrecords.json')
     template_loop('ModbusDB.template.c',  'ModbusDB_test.c', tpl_data)
-    #pprint(tpl_data)
 
 
-    # Testing excel output code
-    '''
-    table_data = {}
-
+    pt = PrettyTable(["PDU Address", "varname", "type", "access", "length"])
+    pt.align = "l"
+    pt.hrules = HEADER
     for i in range(0, len(tpl_data)):
-        table_data.update({tpl_data[i]['address'] : tpl_data[i]})
-
-
-    for key in table_data:
-        del table_data[key]['address']
-
-
-    #pprint(table_data)
-
-    t = PrettyTable(['key', 'value'])
-    for key, val in table_data.items():
-        t.add_row([key, val])
-    print(t)
-
-    with open("thing.pdf", 'w') as outfile:
-        text_file = open(outfile, "w")
-        text_file.write(t)'''
-        #for key, val in sorted(table_data):
-      #  table.add_column(key, sorted(val))
-
-    #print(table)
-    #pprint(tpl_data)
-    #print(table)
-    #input("Code generation completed. Press enter to continue...")
+        pt.add_row([tpl_data[i]['address'],tpl_data[i]['varname'],tpl_data[i]['type'],tpl_data[i]['access'],tpl_data[i]['length']])
+    lines = pt.get_string()
+    pw = PDFWriter('Modbus Records.pdf')
+    pw.setFont('Courier', 8)
+    pw.setHeader('Modbus records')
+    pw.setFooter('Modbus records')
+    for line in lines.split('\n'):
+        pw.writeLine(line)
+    pw.close()
 
 if __name__ == "__main__":
     main()
