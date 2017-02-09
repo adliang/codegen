@@ -26,7 +26,7 @@ def polling_thread():
         if not c.is_open():
             c.open()
         # do modbus reading on socket
-        reg_list = c.read_input_registers(0, 28)
+        reg_list = c.read_input_registers(5000, 28)
         # if read is ok, store result in regs (with thread lock synchronization)
         if reg_list:
             with regs_lock:

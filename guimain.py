@@ -25,7 +25,7 @@ SERVER_PORT = 502
 
 # set global
 regs = []
-poll_rate = 1
+poll_rate = 0.1
 global regpoll
 pollList = []
 debugMode = False
@@ -52,7 +52,6 @@ class SensorThread(QThread):
             for i in range(0, lenpollList):
 
                 read_in = c.read_input_registers(pollList[i]['address'], pollList[i]['length'])
-                print('thing')
 
                 print(pollList[i]['address'])
                 if read_in:
@@ -67,11 +66,10 @@ class SensorThread(QThread):
 
 class modbusTool(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
     disp_enable = True  # Enable for display update
-
+    global lenpollList
     def __init__(self, parent=None):
         super(modbusTool, self).__init__(parent)
         self.setupUi(self)
-        self.createTable()
         self.createTree()
         self.btnStop.setEnabled(False)
         self.btnStart.clicked.connect(self.updateui)
@@ -79,62 +77,10 @@ class modbusTool(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
         self.tableWidget.cellDoubleClicked.connect(self.delTableEntry)
         self.checkDebug.stateChanged.connect(self.debugChecked)
 
-    def debugChecked(self, debugState):
-        global debugMode
-        if debugState:
-            debugMode = True
-        else:
-            debugMode = False
-
-
-    def createTable(self):
-        self.colCount = 2
-        self.valColumn = 0
-        self.vertDispLimit = 33
-        _translate = QtCore.QCoreApplication.translate
-
-        self.tableWidget.setColumnCount(self.colCount)
-        if len(pollList) >= self.vertDispLimit:
-            self.tableWidget.setRowCount(self.vertDispLimit)
-        else:
-            self.tableWidget.setRowCount(len(pollList))
-        for entries in list(range(0, len(pollList))):
-            item = QtWidgets.QTableWidgetItem()
-            if entries == self.vertDispLimit:
-                self.colCount += 3
-                self.valColumn += 3
-                self.tableWidget.setColumnCount(self.colCount)
-                item = QtWidgets.QTableWidgetItem()
-                self.tableWidget.setHorizontalHeaderItem(self.colCount-3, item)
-                item = QtWidgets.QTableWidgetItem()
-                self.tableWidget.setHorizontalHeaderItem(self.colCount-2, item)
-                item = QtWidgets.QTableWidgetItem()
-                self.tableWidget.setHorizontalHeaderItem(self.colCount-1, item)
-                item = self.tableWidget.horizontalHeaderItem(self.colCount-3)
-                item.setText(_translate("MainWindow", "Variable"))
-                item = self.tableWidget.horizontalHeaderItem(self.colCount-2)
-                item.setText(_translate("MainWindow", "Value"))
-                item = self.tableWidget.horizontalHeaderItem(self.colCount-1)
-                item.setText(_translate("MainWindow", "Unit"))
-            if entries < self.vertDispLimit:
-                self.tableWidget.setVerticalHeaderItem(entries, item)
-                item = self.tableWidget.verticalHeaderItem(entries)
-                item.setText(_translate("MainWindow", pollList[entries]['varname']))
-            else:
-                self.tableWidget.setItem(entries % self.vertDispLimit, (entries // self.vertDispLimit) * 2, QTableWidgetItem(pollList[entries]['varname']))
-
-        item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(0, item)
-        item = self.tableWidget.horizontalHeaderItem(0)
-        item.setText(_translate("MainWindow", "Value"))
-        item = QtWidgets.QTableWidgetItem()
-        self.tableWidget.setHorizontalHeaderItem(1, item)
-        item = self.tableWidget.horizontalHeaderItem(1)
-        item.setText(_translate("MainWindow", "Unit"))
-        item.setFlags(QtCore.Qt.ItemIsEnabled)
-
-
     def createTree(self):
+        """
+        Creates a tree menu from the config.json file
+        """
         _translate = QtCore.QCoreApplication.translate
         self.treeWidget.clear()
         widget = QtWidgets.QTreeWidgetItem(self.treeWidget)
@@ -144,8 +90,12 @@ class modbusTool(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
         self.treeWidget.setSortingEnabled(False)
         self.treeWidget.setSortingEnabled(__sortingEnabled)
 
-
     def fill_item(self, item, value):
+        """
+        :param item:
+        :param value:
+        :return:
+        """
         self.last_child = 0
         item.setExpanded(True)
         self.treeWidget.setExpandsOnDoubleClick(True)
@@ -185,10 +135,62 @@ class modbusTool(QtWidgets.QMainWindow, guidesign.Ui_MainWindow):
             item.addChild(child)
         ## ##'''
 
+    def debugChecked(self, debugState):
+
+        global debugMode
+        if debugState:
+            debugMode = True
+        else:
+            debugMode = False
+
+
+    def createTable(self):
+        self.colCount = 3
+        self.valColumn = 0
+        self.vertDispLimit = 33
+        _translate = QtCore.QCoreApplication.translate
+
+        self.tableWidget.setColumnCount(self.colCount)
+        if len(pollList) >= self.vertDispLimit:
+            self.tableWidget.setRowCount(self.vertDispLimit)
+        else:
+            self.tableWidget.setRowCount(len(pollList))
+        for entries in list(range(0, len(pollList))):
+            item = QtWidgets.QTableWidgetItem()
+            if entries == self.vertDispLimit:
+                self.colCount += 3
+                self.valColumn += 3
+                self.tableWidget.setColumnCount(self.colCount)
+                item = QtWidgets.QTableWidgetItem()
+                self.tableWidget.setHorizontalHeaderItem(self.colCount-3, item)
+                item = QtWidgets.QTableWidgetItem()
+                self.tableWidget.setHorizontalHeaderItem(self.colCount-2, item)
+                item = QtWidgets.QTableWidgetItem()
+                self.tableWidget.setHorizontalHeaderItem(self.colCount-1, item)
+                item = self.tableWidget.horizontalHeaderItem(self.colCount-3)
+                item.setText(_translate("MainWindow", "Variable"))
+                item = self.tableWidget.horizontalHeaderItem(self.colCount-2)
+                item.setText(_translate("MainWindow", "Value"))
+                item = self.tableWidget.horizontalHeaderItem(self.colCount-1)
+                item.setText(_translate("MainWindow", "Unit"))
+            if entries < self.vertDispLimit:
+                self.tableWidget.setVerticalHeaderItem(entries, item)
+                item = self.tableWidget.verticalHeaderItem(entries)
+                item.setText(_translate("MainWindow", pollList[entries]['varname']))
+            else:
+                self.tableWidget.setItem(entries % self.vertDispLimit, (entries // self.vertDispLimit) * 2, QTableWidgetItem(pollList[entries]['varname']))
+
+
+
+
+
+
         # Testing
     def delTableEntry(self, row, col):
+        del pollList[row]
+        pprint(pollList)
         print(row, col)
-        print(4)
+        self.createTable()
         #
 
 
