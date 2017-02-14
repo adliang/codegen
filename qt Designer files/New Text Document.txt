@@ -1,1 +1,1 @@
-pyuic5 guidesign_2.ui -o guidesign_2.py
+pyuic5 guidesign_10.ui -o guidesign.py

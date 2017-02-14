@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>726</width>
-    <height>732</height>
+    <width>1239</width>
+    <height>601</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,13 +31,6 @@
          </widget>
         </item>
         <item>
-         <widget class="Line" name="line_3">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-         </widget>
-        </item>
-        <item>
          <widget class="QPushButton" name="btnStop">
           <property name="text">
            <string>Stop</string>
@@ -48,11 +41,30 @@
       </item>
       <item>
        <widget class="QTreeWidget" name="treeWidget">
-        <column>
-         <property name="text">
-          <string>mbrecords</string>
-         </property>
-        </column>
+        <property name="maximumSize">
+         <size>
+          <width>350</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="rootIsDecorated">
+         <bool>true</bool>
+        </property>
+        <property name="uniformRowHeights">
+         <bool>false</bool>
+        </property>
+        <property name="itemsExpandable">
+         <bool>true</bool>
+        </property>
+        <property name="animated">
+         <bool>true</bool>
+        </property>
+        <property name="headerHidden">
+         <bool>true</bool>
+        </property>
+        <attribute name="headerVisible">
+         <bool>false</bool>
+        </attribute>
        </widget>
       </item>
      </layout>
@@ -62,9 +74,9 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QPushButton" name="btnSave">
+         <widget class="QPushButton" name="btnWrite">
           <property name="text">
-           <string>Save Units</string>
+           <string>Write To Register</string>
           </property>
          </widget>
         </item>
@@ -109,6 +121,12 @@
       </item>
       <item>
        <widget class="QTableWidget" name="tableWidget">
+        <property name="gridStyle">
+         <enum>Qt::SolidLine</enum>
+        </property>
+        <property name="cornerButtonEnabled">
+         <bool>false</bool>
+        </property>
         <attribute name="horizontalHeaderVisible">
          <bool>true</bool>
         </attribute>
@@ -130,16 +148,24 @@
         <attribute name="verticalHeaderStretchLastSection">
          <bool>false</bool>
         </attribute>
+        <row>
+         <property name="text">
+          <string>New Row</string>
+         </property>
+        </row>
         <column>
          <property name="text">
           <string>Value</string>
          </property>
         </column>
-        <column>
+        <item row="0" column="0">
          <property name="text">
-          <string>Unit</string>
+          <string> yyuv</string>
          </property>
-        </column>
+         <property name="flags">
+          <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled|ItemIsTristate</set>
+         </property>
+        </item>
        </widget>
       </item>
      </layout>
@@ -147,6 +173,41 @@
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1239</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSetup"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionSetup">
+   <property name="text">
+    <string>Setup</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
