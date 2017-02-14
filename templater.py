@@ -4,7 +4,7 @@
 templater.py
 Generates outputfile using templatefile, looping over [tpl] tags with dict
 elements in list input tpl_data
-__author__ = Andrew Liang
+__author__ = Andrew Liang;
 '''
 # ====================================================================== #
 
